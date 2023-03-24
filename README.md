@@ -8,8 +8,9 @@
 
 ### Introdução
 
-Vamos criar um banco de dados para armazenar dados sobre jogadores e times de um
-jogo famosíssimo no mundo esporte eletrônico chamado de Counter Strike: Global Offensive.
+Vamos criar um banco de dados baseado em grafos usando [Neo4j](https://neo4j.com/) e Docker
+para armazenar dados sobre jogadores e times de um jogo famosíssimo no mundo
+esporte eletrônico chamado de Counter Strike: Global Offensive.
 
 Os dados foram retirados usando um [script](./extract_players.py) escrito em Python a partir de um [CSV](./csgo_players.csv) encontrado na web.
 
