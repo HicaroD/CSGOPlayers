@@ -60,7 +60,7 @@ Os dados foram retirados usando um [script](./extract_players.py) escrito em Pyt
 
 4. **Inserir os dados**
 
-   Antes de tudo, adicionar os dados extraídos em nosso banco de dados. Para isso, vamos copiar os comandos do
+   Antes de tudo, vamos adicionar os dados extraídos em nosso banco de dados. Para isso, vamos copiar os comandos do
    arquivo [`commands.txt`](./commands.txt) e vamos colar na barra de comandos que inicia com `neo4j$` no topo
    da página.
 
