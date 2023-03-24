@@ -1,803 +1,264 @@
-MERGE (:PLAYER {name: "ZywOo"}) -[:PLAYS_FOR]-> (:TEAM {name: "Vitality"})
-MERGE (:PLAYER {name: "s1mple"}) -[:PLAYS_FOR]-> (:TEAM {name: "Natus Vincere"})
-MERGE (:PLAYER {name: "sh1ro"}) -[:PLAYS_FOR]-> (:TEAM {name: "Gambit Youngsters"})
-MERGE (:PLAYER {name: "deko"}) -[:PLAYS_FOR]-> (:TEAM {name: "1WIN"})
-MERGE (:PLAYER {name: "Kaze"}) -[:PLAYS_FOR]-> (:TEAM {name: "ViCi"})
-MERGE (:PLAYER {name: "degster"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spirit"})
-MERGE (:PLAYER {name: "smooya"}) -[:PLAYS_FOR]-> (:TEAM {name: "BIG"})
-MERGE (:PLAYER {name: "sterling"}) -[:PLAYS_FOR]-> (:TEAM {name: "Looking For Org"})
-MERGE (:PLAYER {name: "XANTARES"}) -[:PLAYS_FOR]-> (:TEAM {name: "Eternal Fire"})
-MERGE (:PLAYER {name: "torzsi"}) -[:PLAYS_FOR]-> (:TEAM {name: "MOUZ"})
-MERGE (:PLAYER {name: "DANK1NG"}) -[:PLAYS_FOR]-> (:TEAM {name: "TYLOO"})
-MERGE (:PLAYER {name: "device"}) -[:PLAYS_FOR]-> (:TEAM {name: "Astralis"})
-MERGE (:PLAYER {name: "SENSEi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Run or Die"})
-MERGE (:PLAYER {name: "NiKo"}) -[:PLAYS_FOR]-> (:TEAM {name: "G2"})
-MERGE (:PLAYER {name: "BnTeT"}) -[:PLAYS_FOR]-> (:TEAM {name: "TYLOO"})
-MERGE (:PLAYER {name: "coldzera"}) -[:PLAYS_FOR]-> (:TEAM {name: "SK"})
-MERGE (:PLAYER {name: "XigN"}) -[:PLAYS_FOR]-> (:TEAM {name: "NKT"})
-MERGE (:PLAYER {name: "Sico"}) -[:PLAYS_FOR]-> (:TEAM {name: "Renegades"})
-MERGE (:PLAYER {name: "blameF"}) -[:PLAYS_FOR]-> (:TEAM {name: "Astralis"})
-MERGE (:PLAYER {name: "KSCERATO"}) -[:PLAYS_FOR]-> (:TEAM {name: "FURIA"})
-MERGE (:PLAYER {name: "Benkai"}) -[:PLAYS_FOR]-> (:TEAM {name: "BOOT-d[S]"})
-MERGE (:PLAYER {name: "Jame"}) -[:PLAYS_FOR]-> (:TEAM {name: "AVANGAR"})
-MERGE (:PLAYER {name: "XELLOW"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nexus"})
-MERGE (:PLAYER {name: "Texta"}) -[:PLAYS_FOR]-> (:TEAM {name: "Chiefs"})
-MERGE (:PLAYER {name: "mhL"}) -[:PLAYS_FOR]-> (:TEAM {name: "MOUZ NXT"})
-MERGE (:PLAYER {name: "El1an"}) -[:PLAYS_FOR]-> (:TEAM {name: "Entropiq"})
-MERGE (:PLAYER {name: "oskar"}) -[:PLAYS_FOR]-> (:TEAM {name: "MOUZ"})
-MERGE (:PLAYER {name: "kennyS"}) -[:PLAYS_FOR]-> (:TEAM {name: "G2"})
-MERGE (:PLAYER {name: "frozen"}) -[:PLAYS_FOR]-> (:TEAM {name: "MOUZ"})
-MERGE (:PLAYER {name: "huNter-"}) -[:PLAYS_FOR]-> (:TEAM {name: "G2"})
-MERGE (:PLAYER {name: "mantuu"}) -[:PLAYS_FOR]-> (:TEAM {name: "OG"})
-MERGE (:PLAYER {name: "yuurih"}) -[:PLAYS_FOR]-> (:TEAM {name: "FURIA"})
-MERGE (:PLAYER {name: "erkaSt"}) -[:PLAYS_FOR]-> (:TEAM {name: "Grayhound"})
-MERGE (:PLAYER {name: "Freeman"}) -[:PLAYS_FOR]-> (:TEAM {name: "ViCi"})
-MERGE (:PLAYER {name: "INS"}) -[:PLAYS_FOR]-> (:TEAM {name: "Renegades"})
-MERGE (:PLAYER {name: "chelleos"}) -[:PLAYS_FOR]-> (:TEAM {name: "Paradox"})
-MERGE (:PLAYER {name: "vsm"}) -[:PLAYS_FOR]-> (:TEAM {name: "00NATION"})
-MERGE (:PLAYER {name: "woxic"}) -[:PLAYS_FOR]-> (:TEAM {name: "Eternal Fire"})
-MERGE (:PLAYER {name: "liTTle"}) -[:PLAYS_FOR]-> (:TEAM {name: "forZe"})
-MERGE (:PLAYER {name: "ropz"}) -[:PLAYS_FOR]-> (:TEAM {name: "MOUZ"})
-MERGE (:PLAYER {name: "dream3r"}) -[:PLAYS_FOR]-> (:TEAM {name: "SKADE"})
-MERGE (:PLAYER {name: "kNgV-"}) -[:PLAYS_FOR]-> (:TEAM {name: "MIBR"})
-MERGE (:PLAYER {name: "Jamppi"}) -[:PLAYS_FOR]-> (:TEAM {name: "SJ"})
-MERGE (:PLAYER {name: "wrath"}) -[:PLAYS_FOR]-> (:TEAM {name: "New Identity"})
-MERGE (:PLAYER {name: "xsepower"}) -[:PLAYS_FOR]-> (:TEAM {name: "K23"})
-MERGE (:PLAYER {name: "oSee"}) -[:PLAYS_FOR]-> (:TEAM {name: "Extra Salt"})
-MERGE (:PLAYER {name: "PTC"}) -[:PLAYS_FOR]-> (:TEAM {name: "Lucid Dream"})
-MERGE (:PLAYER {name: "GuardiaN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Natus Vincere"})
-MERGE (:PLAYER {name: "Twistzz"}) -[:PLAYS_FOR]-> (:TEAM {name: "FaZe"})
-MERGE (:PLAYER {name: "NEOFRAG"}) -[:PLAYS_FOR]-> (:TEAM {name: "SINNERS"})
-MERGE (:PLAYER {name: "splashske"}) -[:PLAYS_FOR]-> (:TEAM {name: "BOOT-d[S]"})
-MERGE (:PLAYER {name: "dgt"}) -[:PLAYS_FOR]-> (:TEAM {name: "9z"})
-MERGE (:PLAYER {name: "zorte"}) -[:PLAYS_FOR]-> (:TEAM {name: "forZe"})
-MERGE (:PLAYER {name: "ottoNd"}) -[:PLAYS_FOR]-> (:TEAM {name: "HAVU"})
-MERGE (:PLAYER {name: "FREDDyFROG"}) -[:PLAYS_FOR]-> (:TEAM {name: "Chaos"})
-MERGE (:PLAYER {name: "Brehze"}) -[:PLAYS_FOR]-> (:TEAM {name: "Evil Geniuses"})
-MERGE (:PLAYER {name: "Infinite"}) -[:PLAYS_FOR]-> (:TEAM {name: "Party Astronauts"})
-MERGE (:PLAYER {name: "TenZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "Bad News Bears"})
-MERGE (:PLAYER {name: "f0rest"}) -[:PLAYS_FOR]-> (:TEAM {name: "Dignitas"})
-MERGE (:PLAYER {name: "CeRq"}) -[:PLAYS_FOR]-> (:TEAM {name: "Evil Geniuses"})
-MERGE (:PLAYER {name: "Olivia"}) -[:PLAYS_FOR]-> (:TEAM {name: "Beyond"})
-MERGE (:PLAYER {name: "poizon"}) -[:PLAYS_FOR]-> (:TEAM {name: "Complexity"})
-MERGE (:PLAYER {name: "mertz"}) -[:PLAYS_FOR]-> (:TEAM {name: "North Academy"})
-MERGE (:PLAYER {name: "ekul"}) -[:PLAYS_FOR]-> (:TEAM {name: "Paradox"})
-MERGE (:PLAYER {name: "nawwk"}) -[:PLAYS_FOR]-> (:TEAM {name: "Apeks"})
-MERGE (:PLAYER {name: "WARDELL"}) -[:PLAYS_FOR]-> (:TEAM {name: "Ghost"})
-MERGE (:PLAYER {name: "swag"}) -[:PLAYS_FOR]-> (:TEAM {name: "Swole Patrol"})
-MERGE (:PLAYER {name: "hades"}) -[:PLAYS_FOR]-> (:TEAM {name: "ENCE"})
-MERGE (:PLAYER {name: "mir"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spirit"})
-MERGE (:PLAYER {name: "HEN1"}) -[:PLAYS_FOR]-> (:TEAM {name: "Immortals"})
-MERGE (:PLAYER {name: "aliStair"}) -[:PLAYS_FOR]-> (:TEAM {name: "Renegades"})
-MERGE (:PLAYER {name: "h4rn"}) -[:PLAYS_FOR]-> (:TEAM {name: "FATE"})
-MERGE (:PLAYER {name: "Ax1Le"}) -[:PLAYS_FOR]-> (:TEAM {name: "Gambit Youngsters"})
-MERGE (:PLAYER {name: "dumau"}) -[:PLAYS_FOR]-> (:TEAM {name: "GODSENT"})
-MERGE (:PLAYER {name: "Calyx"}) -[:PLAYS_FOR]-> (:TEAM {name: "Eternal Fire"})
-MERGE (:PLAYER {name: "moose"}) -[:PLAYS_FOR]-> (:TEAM {name: "eUnited"})
-MERGE (:PLAYER {name: "nython"}) -[:PLAYS_FOR]-> (:TEAM {name: "paiN"})
-MERGE (:PLAYER {name: "xccurate"}) -[:PLAYS_FOR]-> (:TEAM {name: "TYLOO"})
-MERGE (:PLAYER {name: "mixwell"}) -[:PLAYS_FOR]-> (:TEAM {name: "OpTic"})
-MERGE (:PLAYER {name: "allu"}) -[:PLAYS_FOR]-> (:TEAM {name: "ENCE"})
-MERGE (:PLAYER {name: "electroNic"}) -[:PLAYS_FOR]-> (:TEAM {name: "Natus Vincere"})
-MERGE (:PLAYER {name: "Farlig"}) -[:PLAYS_FOR]-> (:TEAM {name: "Copenhagen Flames"})
-MERGE (:PLAYER {name: "syrsoN"}) -[:PLAYS_FOR]-> (:TEAM {name: "BIG"})
-MERGE (:PLAYER {name: "lollipop21k"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nemiga"})
-MERGE (:PLAYER {name: "floppy"}) -[:PLAYS_FOR]-> (:TEAM {name: "Cloud9"})
-MERGE (:PLAYER {name: "PwnAlone"}) -[:PLAYS_FOR]-> (:TEAM {name: "Party Astronauts"})
-MERGE (:PLAYER {name: "Spinx"}) -[:PLAYS_FOR]-> (:TEAM {name: "ENCE"})
-MERGE (:PLAYER {name: "GeT_RiGhT"}) -[:PLAYS_FOR]-> (:TEAM {name: "NIP"})
-MERGE (:PLAYER {name: "JUGi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Heroic"})
-MERGE (:PLAYER {name: "dexter"}) -[:PLAYS_FOR]-> (:TEAM {name: "MOUZ"})
-MERGE (:PLAYER {name: "Cooper"}) -[:PLAYS_FOR]-> (:TEAM {name: "Swole Patrol"})
-MERGE (:PLAYER {name: "Sonic"}) -[:PLAYS_FOR]-> (:TEAM {name: "Bravado"})
-MERGE (:PLAYER {name: "JOTA"}) -[:PLAYS_FOR]-> (:TEAM {name: "MIBR"})
-MERGE (:PLAYER {name: "zehN"}) -[:PLAYS_FOR]-> (:TEAM {name: "GODSENT"})
-MERGE (:PLAYER {name: "ZOREE"}) -[:PLAYS_FOR]-> (:TEAM {name: "HAVU"})
-MERGE (:PLAYER {name: "NAF"}) -[:PLAYS_FOR]-> (:TEAM {name: "Liquid"})
-MERGE (:PLAYER {name: "gas"}) -[:PLAYS_FOR]-> (:TEAM {name: "Wings Up"})
-MERGE (:PLAYER {name: "cynic"}) -[:PLAYS_FOR]-> (:TEAM {name: "Party Astronauts"})
-MERGE (:PLAYER {name: "ryx"}) -[:PLAYS_FOR]-> (:TEAM {name: "Echo Fox"})
-MERGE (:PLAYER {name: "mezii"}) -[:PLAYS_FOR]-> (:TEAM {name: "fnatic"})
-MERGE (:PLAYER {name: "BL1TZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "Chiefs"})
-MERGE (:PLAYER {name: "ScreaM"}) -[:PLAYS_FOR]-> (:TEAM {name: "Envy"})
-MERGE (:PLAYER {name: "EliGE"}) -[:PLAYS_FOR]-> (:TEAM {name: "Liquid"})
-MERGE (:PLAYER {name: "HaZR"}) -[:PLAYS_FOR]-> (:TEAM {name: "Looking For Org"})
-MERGE (:PLAYER {name: "faveN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sprout"})
-MERGE (:PLAYER {name: "dennyslaw"}) -[:PLAYS_FOR]-> (:TEAM {name: "SKADE"})
-MERGE (:PLAYER {name: "biguzera"}) -[:PLAYS_FOR]-> (:TEAM {name: "paiN"})
-MERGE (:PLAYER {name: "nex"}) -[:PLAYS_FOR]-> (:TEAM {name: "BIG"})
-MERGE (:PLAYER {name: "fer"}) -[:PLAYS_FOR]-> (:TEAM {name: "SK"})
-MERGE (:PLAYER {name: "k0nfig"}) -[:PLAYS_FOR]-> (:TEAM {name: "Dignitas"})
-MERGE (:PLAYER {name: "valde"}) -[:PLAYS_FOR]-> (:TEAM {name: "OG"})
-MERGE (:PLAYER {name: "dupreeh"}) -[:PLAYS_FOR]-> (:TEAM {name: "Astralis"})
-MERGE (:PLAYER {name: "nukkye"}) -[:PLAYS_FOR]-> (:TEAM {name: "Imperial"})
-MERGE (:PLAYER {name: "Attacker"}) -[:PLAYS_FOR]-> (:TEAM {name: "TYLOO"})
-MERGE (:PLAYER {name: "junior"}) -[:PLAYS_FOR]-> (:TEAM {name: "Complexity"})
-MERGE (:PLAYER {name: "exit"}) -[:PLAYS_FOR]-> (:TEAM {name: "MIBR"})
-MERGE (:PLAYER {name: "Magisk"}) -[:PLAYS_FOR]-> (:TEAM {name: "Astralis"})
-MERGE (:PLAYER {name: "Savage"}) -[:PLAYS_FOR]-> (:TEAM {name: "VG.CyberZen"})
-MERGE (:PLAYER {name: "Machinegun"}) -[:PLAYS_FOR]-> (:TEAM {name: "TheMongolz"})
-MERGE (:PLAYER {name: "DJOXiC"}) -[:PLAYS_FOR]-> (:TEAM {name: "Binary Dragons"})
-MERGE (:PLAYER {name: "Detrony"}) -[:PLAYS_FOR]-> (:TEAM {name: "Bravado"})
-MERGE (:PLAYER {name: "Summer"}) -[:PLAYS_FOR]-> (:TEAM {name: "TYLOO"})
-MERGE (:PLAYER {name: "Hatz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Renegades"})
-MERGE (:PLAYER {name: "keev"}) -[:PLAYS_FOR]-> (:TEAM {name: "ALTERNATE aTTaX"})
-MERGE (:PLAYER {name: "felps"}) -[:PLAYS_FOR]-> (:TEAM {name: "SK"})
-MERGE (:PLAYER {name: "draken"}) -[:PLAYS_FOR]-> (:TEAM {name: "Epsilon"})
-MERGE (:PLAYER {name: "sergej"}) -[:PLAYS_FOR]-> (:TEAM {name: "GORILLAZ"})
-MERGE (:PLAYER {name: "pz"}) -[:PLAYS_FOR]-> (:TEAM {name: "VERTEX"})
-MERGE (:PLAYER {name: "ShahZaM"}) -[:PLAYS_FOR]-> (:TEAM {name: "Complexity"})
-MERGE (:PLAYER {name: "jayzaR"}) -[:PLAYS_FOR]-> (:TEAM {name: "Valiance"})
-MERGE (:PLAYER {name: "FL1T"}) -[:PLAYS_FOR]-> (:TEAM {name: "forZe"})
-MERGE (:PLAYER {name: "Ryxxo"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "MICHU"}) -[:PLAYS_FOR]-> (:TEAM {name: "Virtus.pro"})
-MERGE (:PLAYER {name: "hAdji"}) -[:PLAYS_FOR]-> (:TEAM {name: "LDLC"})
-MERGE (:PLAYER {name: "Rickeh"}) -[:PLAYS_FOR]-> (:TEAM {name: "ORDER"})
-MERGE (:PLAYER {name: "ptr"}) -[:PLAYS_FOR]-> (:TEAM {name: "Bad News Bears"})
-MERGE (:PLAYER {name: "slaxz-"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sprout"})
-MERGE (:PLAYER {name: "Impulse"}) -[:PLAYS_FOR]-> (:TEAM {name: "Valiance"})
-MERGE (:PLAYER {name: "dapr"}) -[:PLAYS_FOR]-> (:TEAM {name: "eUnited"})
-MERGE (:PLAYER {name: "nicoodoz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Copenhagen Flames"})
-MERGE (:PLAYER {name: "YEKINDAR"}) -[:PLAYS_FOR]-> (:TEAM {name: "pro100"})
-MERGE (:PLAYER {name: "Liazz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Renegades"})
-MERGE (:PLAYER {name: "meyern"}) -[:PLAYS_FOR]-> (:TEAM {name: "Furious"})
-MERGE (:PLAYER {name: "NaToSaphiX"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sprout"})
-MERGE (:PLAYER {name: "shox"}) -[:PLAYS_FOR]-> (:TEAM {name: "G2"})
-MERGE (:PLAYER {name: "iDISBALANCE"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nemiga"})
-MERGE (:PLAYER {name: "autimatic"}) -[:PLAYS_FOR]-> (:TEAM {name: "Cloud9"})
-MERGE (:PLAYER {name: "fejtZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "SMASH"})
-MERGE (:PLAYER {name: "jks"}) -[:PLAYS_FOR]-> (:TEAM {name: "Renegades"})
-MERGE (:PLAYER {name: "smike"}) -[:PLAYS_FOR]-> (:TEAM {name: "spray'n'pray"})
-MERGE (:PLAYER {name: "NikoM"}) -[:PLAYS_FOR]-> (:TEAM {name: "TeamOne"})
-MERGE (:PLAYER {name: "trk"}) -[:PLAYS_FOR]-> (:TEAM {name: "TeamOne"})
-MERGE (:PLAYER {name: "hallzerk"}) -[:PLAYS_FOR]-> (:TEAM {name: "Dignitas"})
-MERGE (:PLAYER {name: "dycha"}) -[:PLAYS_FOR]-> (:TEAM {name: "ENCE"})
-MERGE (:PLAYER {name: "xand"}) -[:PLAYS_FOR]-> (:TEAM {name: "INTZ"})
-MERGE (:PLAYER {name: "paz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Space Soldiers"})
-MERGE (:PLAYER {name: "CRUC1AL"}) -[:PLAYS_FOR]-> (:TEAM {name: "Endpoint"})
-MERGE (:PLAYER {name: "InfrequeNt"}) -[:PLAYS_FOR]-> (:TEAM {name: "Athletico"})
-MERGE (:PLAYER {name: "HObbit"}) -[:PLAYS_FOR]-> (:TEAM {name: "Gambit"})
-MERGE (:PLAYER {name: "boltz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Immortals"})
-MERGE (:PLAYER {name: "EspiranTo"}) -[:PLAYS_FOR]-> (:TEAM {name: "Imperial"})
-MERGE (:PLAYER {name: "WorldEdit"}) -[:PLAYS_FOR]-> (:TEAM {name: "FlipSid3"})
-MERGE (:PLAYER {name: "QKA"}) -[:PLAYS_FOR]-> (:TEAM {name: "5POWER"})
-MERGE (:PLAYER {name: "FalleN"}) -[:PLAYS_FOR]-> (:TEAM {name: "SK"})
-MERGE (:PLAYER {name: "somebody"}) -[:PLAYS_FOR]-> (:TEAM {name: "TYLOO"})
-MERGE (:PLAYER {name: "Brollan"}) -[:PLAYS_FOR]-> (:TEAM {name: "fnatic"})
-MERGE (:PLAYER {name: "shroud"}) -[:PLAYS_FOR]-> (:TEAM {name: "Cloud9"})
-MERGE (:PLAYER {name: "Pimp"}) -[:PLAYS_FOR]-> (:TEAM {name: "Dignitas"})
-MERGE (:PLAYER {name: "fame"}) -[:PLAYS_FOR]-> (:TEAM {name: "K23"})
-MERGE (:PLAYER {name: "hardzao"}) -[:PLAYS_FOR]-> (:TEAM {name: "paiN"})
-MERGE (:PLAYER {name: "anarkez"}) -[:PLAYS_FOR]-> (:TEAM {name: "Finest"})
-MERGE (:PLAYER {name: "roeJ"}) -[:PLAYS_FOR]-> (:TEAM {name: "Copenhagen Flames"})
-MERGE (:PLAYER {name: "shz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Luminosity"})
-MERGE (:PLAYER {name: "chelo"}) -[:PLAYS_FOR]-> (:TEAM {name: "MIBR"})
-MERGE (:PLAYER {name: "DD"}) -[:PLAYS_FOR]-> (:TEAM {name: "TYLOO"})
-MERGE (:PLAYER {name: "broky"}) -[:PLAYS_FOR]-> (:TEAM {name: "FaZe"})
-MERGE (:PLAYER {name: "NikkeZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "Ground Zero"})
-MERGE (:PLAYER {name: "snatchie"}) -[:PLAYS_FOR]-> (:TEAM {name: "AGO"})
-MERGE (:PLAYER {name: "zhokiNg"}) -[:PLAYS_FOR]-> (:TEAM {name: "ViCi"})
-MERGE (:PLAYER {name: "ofnu"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tainted Minds"})
-MERGE (:PLAYER {name: "AnJ"}) -[:PLAYS_FOR]-> (:TEAM {name: "NRG"})
-MERGE (:PLAYER {name: "Ethan"}) -[:PLAYS_FOR]-> (:TEAM {name: "NRG"})
-MERGE (:PLAYER {name: "Happy"}) -[:PLAYS_FOR]-> (:TEAM {name: "Envy"})
-MERGE (:PLAYER {name: "acoR"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "b1t"}) -[:PLAYS_FOR]-> (:TEAM {name: "Natus Vincere"})
-MERGE (:PLAYER {name: "SHiPZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "SKADE"})
-MERGE (:PLAYER {name: "COLDYY1"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spirit"})
-MERGE (:PLAYER {name: "flying"}) -[:PLAYS_FOR]-> (:TEAM {name: "Invictus"})
-MERGE (:PLAYER {name: "SLOWLY"}) -[:PLAYS_FOR]-> (:TEAM {name: "TYLOO"})
-MERGE (:PLAYER {name: "Valiance"}) -[:PLAYS_FOR]-> (:TEAM {name: "ORDER"})
-MERGE (:PLAYER {name: "Skadoodle"}) -[:PLAYS_FOR]-> (:TEAM {name: "Cloud9"})
-MERGE (:PLAYER {name: "pancc"}) -[:PLAYS_FOR]-> (:TEAM {name: "W7M"})
-MERGE (:PLAYER {name: "b4rtiN"}) -[:PLAYS_FOR]-> (:TEAM {name: "GODSENT"})
-MERGE (:PLAYER {name: "koosta"}) -[:PLAYS_FOR]-> (:TEAM {name: "CLG"})
-MERGE (:PLAYER {name: "Maka"}) -[:PLAYS_FOR]-> (:TEAM {name: "Heretics"})
-MERGE (:PLAYER {name: "suNny"}) -[:PLAYS_FOR]-> (:TEAM {name: "ENCE"})
-MERGE (:PLAYER {name: "tucks"}) -[:PLAYS_FOR]-> (:TEAM {name: "Chiefs"})
-MERGE (:PLAYER {name: "TOR"}) -[:PLAYS_FOR]-> (:TEAM {name: "Signature"})
-MERGE (:PLAYER {name: "olofmeister"}) -[:PLAYS_FOR]-> (:TEAM {name: "fnatic"})
-MERGE (:PLAYER {name: "malbsMd"}) -[:PLAYS_FOR]-> (:TEAM {name: "TeamOne"})
-MERGE (:PLAYER {name: "nexa"}) -[:PLAYS_FOR]-> (:TEAM {name: "G2"})
-MERGE (:PLAYER {name: "Gratisfaction"}) -[:PLAYS_FOR]-> (:TEAM {name: "Grayhound"})
-MERGE (:PLAYER {name: "KEi"}) -[:PLAYS_FOR]-> (:TEAM {name: "AVEZ"})
-MERGE (:PLAYER {name: "REDSTAR"}) -[:PLAYS_FOR]-> (:TEAM {name: "Fiend"})
-MERGE (:PLAYER {name: "rallen"}) -[:PLAYS_FOR]-> (:TEAM {name: "Kinguin"})
-MERGE (:PLAYER {name: "Sobol"}) -[:PLAYS_FOR]-> (:TEAM {name: "Wisla Krakow"})
-MERGE (:PLAYER {name: "bottle"}) -[:PLAYS_FOR]-> (:TEAM {name: "Invictus"})
-MERGE (:PLAYER {name: "iM"}) -[:PLAYS_FOR]-> (:TEAM {name: "GamerLegion"})
-MERGE (:PLAYER {name: "tabseN"}) -[:PLAYS_FOR]-> (:TEAM {name: "BIG"})
-MERGE (:PLAYER {name: "ISSAA"}) -[:PLAYS_FOR]-> (:TEAM {name: "HellRaisers"})
-MERGE (:PLAYER {name: "zeph"}) -[:PLAYS_FOR]-> (:TEAM {name: "ORDER"})
-MERGE (:PLAYER {name: "Rainwaker"}) -[:PLAYS_FOR]-> (:TEAM {name: "SKADE"})
-MERGE (:PLAYER {name: "JW"}) -[:PLAYS_FOR]-> (:TEAM {name: "fnatic"})
-MERGE (:PLAYER {name: "Ramz1kBO$$"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tengri"})
-MERGE (:PLAYER {name: "TeSeS"}) -[:PLAYS_FOR]-> (:TEAM {name: "Heroic"})
-MERGE (:PLAYER {name: "HZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "TYLOO"})
-MERGE (:PLAYER {name: "cajunb"}) -[:PLAYS_FOR]-> (:TEAM {name: "North"})
-MERGE (:PLAYER {name: "mou"}) -[:PLAYS_FOR]-> (:TEAM {name: "Gambit"})
-MERGE (:PLAYER {name: "juanflatroo"}) -[:PLAYS_FOR]-> (:TEAM {name: "BLINK"})
-MERGE (:PLAYER {name: "Grim"}) -[:PLAYS_FOR]-> (:TEAM {name: "Liquid"})
-MERGE (:PLAYER {name: "sdy"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spirit"})
-MERGE (:PLAYER {name: "KRIMZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "fnatic"})
-MERGE (:PLAYER {name: "Marcelious"}) -[:PLAYS_FOR]-> (:TEAM {name: "Apeks"})
-MERGE (:PLAYER {name: "yay"}) -[:PLAYS_FOR]-> (:TEAM {name: "Complexity"})
-MERGE (:PLAYER {name: "Qikert"}) -[:PLAYS_FOR]-> (:TEAM {name: "AVANGAR"})
-MERGE (:PLAYER {name: "refrezh"}) -[:PLAYS_FOR]-> (:TEAM {name: "Heroic"})
-MERGE (:PLAYER {name: "SicK"}) -[:PLAYS_FOR]-> (:TEAM {name: "Rogue"})
-MERGE (:PLAYER {name: "NEEX"}) -[:PLAYS_FOR]-> (:TEAM {name: "Izako Boars"})
-MERGE (:PLAYER {name: "Aerial"}) -[:PLAYS_FOR]-> (:TEAM {name: "HAVU"})
-MERGE (:PLAYER {name: "stavn"}) -[:PLAYS_FOR]-> (:TEAM {name: "Heroic"})
-MERGE (:PLAYER {name: "loWel"}) -[:PLAYS_FOR]-> (:TEAM {name: "Movistar Riders"})
-MERGE (:PLAYER {name: "Flarich"}) -[:PLAYS_FOR]-> (:TEAM {name: "HellRaisers"})
-MERGE (:PLAYER {name: "raafa"}) -[:PLAYS_FOR]-> (:TEAM {name: "W7M"})
-MERGE (:PLAYER {name: "Zellsis"}) -[:PLAYS_FOR]-> (:TEAM {name: "Swole Patrol"})
-MERGE (:PLAYER {name: "flusha"}) -[:PLAYS_FOR]-> (:TEAM {name: "fnatic"})
-MERGE (:PLAYER {name: "WolfY"}) -[:PLAYS_FOR]-> (:TEAM {name: "ECSTATIC"})
-MERGE (:PLAYER {name: "rommi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spirit Academy"})
-MERGE (:PLAYER {name: "Bwills"}) -[:PLAYS_FOR]-> (:TEAM {name: "Triumph"})
-MERGE (:PLAYER {name: "cadiaN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Heroic"})
-MERGE (:PLAYER {name: "kabal"}) -[:PLAYS_FOR]-> (:TEAM {name: "5POWER"})
-MERGE (:PLAYER {name: "malta"}) -[:PLAYS_FOR]-> (:TEAM {name: "Grayhound"})
-MERGE (:PLAYER {name: "MarKE"}) -[:PLAYS_FOR]-> (:TEAM {name: "Extra Salt"})
-MERGE (:PLAYER {name: "Swahn"}) -[:PLAYS_FOR]-> (:TEAM {name: "Bad News Bears"})
-MERGE (:PLAYER {name: "Kjaerbye"}) -[:PLAYS_FOR]-> (:TEAM {name: "North"})
-MERGE (:PLAYER {name: "afro"}) -[:PLAYS_FOR]-> (:TEAM {name: "HEET"})
-MERGE (:PLAYER {name: "FASHR"}) -[:PLAYS_FOR]-> (:TEAM {name: "ECSTATIC"})
-MERGE (:PLAYER {name: "n0rb3r7"}) -[:PLAYS_FOR]-> (:TEAM {name: "K23"})
-MERGE (:PLAYER {name: "DavCost"}) -[:PLAYS_FOR]-> (:TEAM {name: "INDE IRAE"})
-MERGE (:PLAYER {name: "zewsy"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tainted Minds"})
-MERGE (:PLAYER {name: "STOMP"}) -[:PLAYS_FOR]-> (:TEAM {name: "x-kom"})
-MERGE (:PLAYER {name: "aumaN"}) -[:PLAYS_FOR]-> (:TEAM {name: "ViCi"})
-MERGE (:PLAYER {name: "jkaem"}) -[:PLAYS_FOR]-> (:TEAM {name: "Apeks"})
-MERGE (:PLAYER {name: "Snakes"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spacestation"})
-MERGE (:PLAYER {name: "Hiko"}) -[:PLAYS_FOR]-> (:TEAM {name: "Liquid"})
-MERGE (:PLAYER {name: "Geniuss"}) -[:PLAYS_FOR]-> (:TEAM {name: "Signature"})
-MERGE (:PLAYER {name: "Snax"}) -[:PLAYS_FOR]-> (:TEAM {name: "Virtus.pro"})
-MERGE (:PLAYER {name: "KHTEX"}) -[:PLAYS_FOR]-> (:TEAM {name: "Paquetá"})
-MERGE (:PLAYER {name: "Lucky"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "HSK"}) -[:PLAYS_FOR]-> (:TEAM {name: "MVP PK"})
-MERGE (:PLAYER {name: "motm"}) -[:PLAYS_FOR]-> (:TEAM {name: "ATK"})
-MERGE (:PLAYER {name: "fnx"}) -[:PLAYS_FOR]-> (:TEAM {name: "Imperial"})
-MERGE (:PLAYER {name: "imoRR"}) -[:PLAYS_FOR]-> (:TEAM {name: "Eternal Fire"})
-MERGE (:PLAYER {name: "twist"}) -[:PLAYS_FOR]-> (:TEAM {name: "GODSENT"})
-MERGE (:PLAYER {name: "Bubzkji"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "buster"}) -[:PLAYS_FOR]-> (:TEAM {name: "AVANGAR"})
-MERGE (:PLAYER {name: "eraa"}) -[:PLAYS_FOR]-> (:TEAM {name: "GamerLegion"})
-MERGE (:PLAYER {name: "ANDROID"}) -[:PLAYS_FOR]-> (:TEAM {name: "Complexity"})
-MERGE (:PLAYER {name: "LOVEYY"}) -[:PLAYS_FOR]-> (:TEAM {name: "Flash"})
-MERGE (:PLAYER {name: "Kntz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Alpha Red"})
-MERGE (:PLAYER {name: "Maden"}) -[:PLAYS_FOR]-> (:TEAM {name: "ENCE"})
-MERGE (:PLAYER {name: "Lucky"}) -[:PLAYS_FOR]-> (:TEAM {name: "Heretics"})
-MERGE (:PLAYER {name: "Davidp"}) -[:PLAYS_FOR]-> (:TEAM {name: "3DMAX"})
-MERGE (:PLAYER {name: "tb"}) -[:PLAYS_FOR]-> (:TEAM {name: "VG.CyberZen"})
-MERGE (:PLAYER {name: "dEE"}) -[:PLAYS_FOR]-> (:TEAM {name: "lvlUP"})
-MERGE (:PLAYER {name: "tarik"}) -[:PLAYS_FOR]-> (:TEAM {name: "CLG"})
-MERGE (:PLAYER {name: "land1n"}) -[:PLAYS_FOR]-> (:TEAM {name: "paiN"})
-MERGE (:PLAYER {name: "F1KU"}) -[:PLAYS_FOR]-> (:TEAM {name: "AGO"})
-MERGE (:PLAYER {name: "dobu"}) -[:PLAYS_FOR]-> (:TEAM {name: "5POWER"})
-MERGE (:PLAYER {name: "REZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "NIP"})
-MERGE (:PLAYER {name: "rAge"}) -[:PLAYS_FOR]-> (:TEAM {name: "Hard Legion"})
-MERGE (:PLAYER {name: "NK4Y"}) -[:PLAYS_FOR]-> (:TEAM {name: "Outlaws"})
-MERGE (:PLAYER {name: "sjuush"}) -[:PLAYS_FOR]-> (:TEAM {name: "Heroic"})
-MERGE (:PLAYER {name: "JUST"}) -[:PLAYS_FOR]-> (:TEAM {name: "SAW"})
-MERGE (:PLAYER {name: "USTILO"}) -[:PLAYS_FOR]-> (:TEAM {name: "Renegades"})
-MERGE (:PLAYER {name: "Subroza"}) -[:PLAYS_FOR]-> (:TEAM {name: "Ghost"})
-MERGE (:PLAYER {name: "TRAVIS"}) -[:PLAYS_FOR]-> (:TEAM {name: "1WIN"})
-MERGE (:PLAYER {name: "JonY BoY"}) -[:PLAYS_FOR]-> (:TEAM {name: "Gale Force"})
-MERGE (:PLAYER {name: "max"}) -[:PLAYS_FOR]-> (:TEAM {name: "9z"})
-MERGE (:PLAYER {name: "juho"}) -[:PLAYS_FOR]-> (:TEAM {name: "ENCE"})
-MERGE (:PLAYER {name: "DannyG"}) -[:PLAYS_FOR]-> (:TEAM {name: "Rooster"})
-MERGE (:PLAYER {name: "yam"}) -[:PLAYS_FOR]-> (:TEAM {name: "Renegades"})
-MERGE (:PLAYER {name: "fleav"}) -[:PLAYS_FOR]-> (:TEAM {name: "Budapest Five"})
-MERGE (:PLAYER {name: "alex"}) -[:PLAYS_FOR]-> (:TEAM {name: "Movistar Riders"})
-MERGE (:PLAYER {name: "Relaxa"}) -[:PLAYS_FOR]-> (:TEAM {name: "Chaos"})
-MERGE (:PLAYER {name: "Lucaozy"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sharks"})
-MERGE (:PLAYER {name: "znajder"}) -[:PLAYS_FOR]-> (:TEAM {name: "GODSENT"})
-MERGE (:PLAYER {name: "DEV7L"}) -[:PLAYS_FOR]-> (:TEAM {name: "eXtatus"})
-MERGE (:PLAYER {name: "AiyvaN"}) -[:PLAYS_FOR]-> (:TEAM {name: "pro100"})
-MERGE (:PLAYER {name: "DiMKE"}) -[:PLAYS_FOR]-> (:TEAM {name: "4glory"})
-MERGE (:PLAYER {name: "captainMo"}) -[:PLAYS_FOR]-> (:TEAM {name: "TYLOO"})
-MERGE (:PLAYER {name: "phzy"}) -[:PLAYS_FOR]-> (:TEAM {name: "Young Ninjas"})
-MERGE (:PLAYER {name: "KENSI"}) -[:PLAYS_FOR]-> (:TEAM {name: "forZe"})
-MERGE (:PLAYER {name: "rain"}) -[:PLAYS_FOR]-> (:TEAM {name: "FaZe"})
-MERGE (:PLAYER {name: "Thomas"}) -[:PLAYS_FOR]-> (:TEAM {name: "Endpoint"})
-MERGE (:PLAYER {name: "stfN"}) -[:PLAYS_FOR]-> (:TEAM {name: "ALTERNATE aTTaX"})
-MERGE (:PLAYER {name: "Spargo"}) -[:PLAYS_FOR]-> (:TEAM {name: "KOVA"})
-MERGE (:PLAYER {name: "RCF"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sharks"})
-MERGE (:PLAYER {name: "kressy"}) -[:PLAYS_FOR]-> (:TEAM {name: "ALTERNATE aTTaX"})
-MERGE (:PLAYER {name: "Patitek"}) -[:PLAYS_FOR]-> (:TEAM {name: "Izako Boars"})
-MERGE (:PLAYER {name: "shuadapai"}) -[:PLAYS_FOR]-> (:TEAM {name: "5POWER"})
-MERGE (:PLAYER {name: "aizy"}) -[:PLAYS_FOR]-> (:TEAM {name: "North"})
-MERGE (:PLAYER {name: "cxzi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Triumph"})
-MERGE (:PLAYER {name: "FrostMisty"}) -[:PLAYS_FOR]-> (:TEAM {name: "Recca"})
-MERGE (:PLAYER {name: "fl0m"}) -[:PLAYS_FOR]-> (:TEAM {name: "Mythic"})
-MERGE (:PLAYER {name: "RIKO"}) -[:PLAYS_FOR]-> (:TEAM {name: "Monstars"})
-MERGE (:PLAYER {name: "Forester"}) -[:PLAYS_FOR]-> (:TEAM {name: "Entropiq"})
-MERGE (:PLAYER {name: "dennis"}) -[:PLAYS_FOR]-> (:TEAM {name: "Apeks"})
-MERGE (:PLAYER {name: "food"}) -[:PLAYS_FOR]-> (:TEAM {name: "eUnited"})
-MERGE (:PLAYER {name: "FaNg"}) -[:PLAYS_FOR]-> (:TEAM {name: "Extra Salt"})
-MERGE (:PLAYER {name: "flamie"}) -[:PLAYS_FOR]-> (:TEAM {name: "Natus Vincere"})
-MERGE (:PLAYER {name: "Patsi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spirit"})
-MERGE (:PLAYER {name: "glowiing"}) -[:PLAYS_FOR]-> (:TEAM {name: "1WIN"})
-MERGE (:PLAYER {name: "pashaBiceps"}) -[:PLAYS_FOR]-> (:TEAM {name: "Virtus.pro"})
-MERGE (:PLAYER {name: "hoody"}) -[:PLAYS_FOR]-> (:TEAM {name: "HAVU"})
-MERGE (:PLAYER {name: "CyberFocus"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nemiga"})
-MERGE (:PLAYER {name: "Maluk3"}) -[:PLAYS_FOR]-> (:TEAM {name: "TeamOne"})
-MERGE (:PLAYER {name: "kai"}) -[:PLAYS_FOR]-> (:TEAM {name: "Bravos"})
-MERGE (:PLAYER {name: "Krad"}) -[:PLAYS_FOR]-> (:TEAM {name: "Entropiq"})
-MERGE (:PLAYER {name: "sLowi"}) -[:PLAYS_FOR]-> (:TEAM {name: "HAVU"})
-MERGE (:PLAYER {name: "HexT"}) -[:PLAYS_FOR]-> (:TEAM {name: "Carpe Diem"})
-MERGE (:PLAYER {name: "smiley"}) -[:PLAYS_FOR]-> (:TEAM {name: "Unique"})
-MERGE (:PLAYER {name: "niko"}) -[:PLAYS_FOR]-> (:TEAM {name: "OG"})
-MERGE (:PLAYER {name: "AMANEK"}) -[:PLAYS_FOR]-> (:TEAM {name: "G2"})
-MERGE (:PLAYER {name: "dragonfly"}) -[:PLAYS_FOR]-> (:TEAM {name: "Fragsters"})
-MERGE (:PLAYER {name: "szejn"}) -[:PLAYS_FOR]-> (:TEAM {name: "MOUZ NXT"})
-MERGE (:PLAYER {name: "kolor"}) -[:PLAYS_FOR]-> (:TEAM {name: "Budapest Five"})
-MERGE (:PLAYER {name: "JDC"}) -[:PLAYS_FOR]-> (:TEAM {name: "MOUZ NXT"})
-MERGE (:PLAYER {name: "NBK-"}) -[:PLAYS_FOR]-> (:TEAM {name: "Envy"})
-MERGE (:PLAYER {name: "DeStiNy"}) -[:PLAYS_FOR]-> (:TEAM {name: "Luminosity"})
-MERGE (:PLAYER {name: "jdm64"}) -[:PLAYS_FOR]-> (:TEAM {name: "Liquid"})
-MERGE (:PLAYER {name: "HS"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nordavind"})
-MERGE (:PLAYER {name: "bondik"}) -[:PLAYS_FOR]-> (:TEAM {name: "HellRaisers"})
-MERGE (:PLAYER {name: "MonttY"}) -[:PLAYS_FOR]-> (:TEAM {name: "eXtatus"})
-MERGE (:PLAYER {name: "mouz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Kinguin"})
-MERGE (:PLAYER {name: "FANAT ROCKA"}) -[:PLAYS_FOR]-> (:TEAM {name: "Unique"})
-MERGE (:PLAYER {name: "disco doplan"}) -[:PLAYS_FOR]-> (:TEAM {name: "GODSENT"})
-MERGE (:PLAYER {name: "Tuurtle"}) -[:PLAYS_FOR]-> (:TEAM {name: "MIBR"})
-MERGE (:PLAYER {name: "Nico"}) -[:PLAYS_FOR]-> (:TEAM {name: "Dignitas"})
-MERGE (:PLAYER {name: "NENO"}) -[:PLAYS_FOR]-> (:TEAM {name: "Binary Dragons"})
-MERGE (:PLAYER {name: "qqGOD"}) -[:PLAYS_FOR]-> (:TEAM {name: "Signature"})
-MERGE (:PLAYER {name: "Plopski"}) -[:PLAYS_FOR]-> (:TEAM {name: "NIP"})
-MERGE (:PLAYER {name: "Xyp9x"}) -[:PLAYS_FOR]-> (:TEAM {name: "Astralis"})
-MERGE (:PLAYER {name: "MoeycQ"}) -[:PLAYS_FOR]-> (:TEAM {name: "Immunity"})
-MERGE (:PLAYER {name: "Spongey"}) -[:PLAYS_FOR]-> (:TEAM {name: "Bad News Bears"})
-MERGE (:PLAYER {name: "v1c7oR"}) -[:PLAYS_FOR]-> (:TEAM {name: "Windigo"})
-MERGE (:PLAYER {name: "apEX"}) -[:PLAYS_FOR]-> (:TEAM {name: "Vitality"})
-MERGE (:PLAYER {name: "spaze"}) -[:PLAYS_FOR]-> (:TEAM {name: "PiTER"})
-MERGE (:PLAYER {name: "Goofy"}) -[:PLAYS_FOR]-> (:TEAM {name: "Wisla Krakow"})
-MERGE (:PLAYER {name: "b0denmaster"}) -[:PLAYS_FOR]-> (:TEAM {name: "ATK"})
-MERGE (:PLAYER {name: "mar"}) -[:PLAYS_FOR]-> (:TEAM {name: "FATE"})
-MERGE (:PLAYER {name: "Ace"}) -[:PLAYS_FOR]-> (:TEAM {name: "Rise Nation"})
-MERGE (:PLAYER {name: "Markoś"}) -[:PLAYS_FOR]-> (:TEAM {name: "AVEZ"})
-MERGE (:PLAYER {name: "dimasick"}) -[:PLAYS_FOR]-> (:TEAM {name: "AVANGAR"})
-MERGE (:PLAYER {name: "yel"}) -[:PLAYS_FOR]-> (:TEAM {name: "Luminosity"})
-MERGE (:PLAYER {name: "iDk"}) -[:PLAYS_FOR]-> (:TEAM {name: "TeamOne"})
-MERGE (:PLAYER {name: "queztone"}) -[:PLAYS_FOR]-> (:TEAM {name: "eXtatus"})
-MERGE (:PLAYER {name: "ROBO"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nemiga"})
-MERGE (:PLAYER {name: "steel"}) -[:PLAYS_FOR]-> (:TEAM {name: "Chaos"})
-MERGE (:PLAYER {name: "TENZKI"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nordavind"})
-MERGE (:PLAYER {name: "fr0slev"}) -[:PLAYS_FOR]-> (:TEAM {name: "AGF"})
-MERGE (:PLAYER {name: "LETN1"}) -[:PLAYS_FOR]-> (:TEAM {name: "Valiance"})
-MERGE (:PLAYER {name: "fox"}) -[:PLAYS_FOR]-> (:TEAM {name: "Giants"})
-MERGE (:PLAYER {name: "n0thing"}) -[:PLAYS_FOR]-> (:TEAM {name: "Cloud9"})
-MERGE (:PLAYER {name: "SKYTTEN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Orbit"})
-MERGE (:PLAYER {name: "roseau"}) -[:PLAYS_FOR]-> (:TEAM {name: "Recca"})
-MERGE (:PLAYER {name: "roca"}) -[:PLAYS_FOR]-> (:TEAM {name: "Splyce"})
-MERGE (:PLAYER {name: "flickz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Chiefs"})
-MERGE (:PLAYER {name: "xCeeD"}) -[:PLAYS_FOR]-> (:TEAM {name: "The Quest"})
-MERGE (:PLAYER {name: "Jyo"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nemiga"})
-MERGE (:PLAYER {name: "chrisJ"}) -[:PLAYS_FOR]-> (:TEAM {name: "MOUZ"})
-MERGE (:PLAYER {name: "aproto"}) -[:PLAYS_FOR]-> (:TEAM {name: "CLG Academy"})
-MERGE (:PLAYER {name: "Nodios"}) -[:PLAYS_FOR]-> (:TEAM {name: "Copenhagen Flames"})
-MERGE (:PLAYER {name: "bedonka"}) -[:PLAYS_FOR]-> (:TEAM {name: "Paradox"})
-MERGE (:PLAYER {name: "es3tag"}) -[:PLAYS_FOR]-> (:TEAM {name: "Heroic"})
-MERGE (:PLAYER {name: "Voltage"}) -[:PLAYS_FOR]-> (:TEAM {name: "The Quest"})
-MERGE (:PLAYER {name: "delboNi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Imperial"})
-MERGE (:PLAYER {name: "Kylar"}) -[:PLAYS_FOR]-> (:TEAM {name: "AVEZ"})
-MERGE (:PLAYER {name: "byali"}) -[:PLAYS_FOR]-> (:TEAM {name: "Virtus.pro"})
-MERGE (:PLAYER {name: "GruBy"}) -[:PLAYS_FOR]-> (:TEAM {name: "AGO"})
-MERGE (:PLAYER {name: "Zyphon"}) -[:PLAYS_FOR]-> (:TEAM {name: "Copenhagen Flames"})
-MERGE (:PLAYER {name: "PlesseN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Galaxy Racer"})
-MERGE (:PLAYER {name: "desi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Winterfox"})
-MERGE (:PLAYER {name: "arT"}) -[:PLAYS_FOR]-> (:TEAM {name: "FURIA"})
-MERGE (:PLAYER {name: "b0RUP"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "HUGHMUNGUS"}) -[:PLAYS_FOR]-> (:TEAM {name: "Chiefs"})
-MERGE (:PLAYER {name: "tatazin"}) -[:PLAYS_FOR]-> (:TEAM {name: "paiN"})
-MERGE (:PLAYER {name: "Swisher"}) -[:PLAYS_FOR]-> (:TEAM {name: "Bad News Bears"})
-MERGE (:PLAYER {name: "Maikelele"}) -[:PLAYS_FOR]-> (:TEAM {name: "NoChance"})
-MERGE (:PLAYER {name: "Lekr0"}) -[:PLAYS_FOR]-> (:TEAM {name: "Dignitas"})
-MERGE (:PLAYER {name: "mitch"}) -[:PLAYS_FOR]-> (:TEAM {name: "Selfless"})
-MERGE (:PLAYER {name: "shokz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Finest"})
-MERGE (:PLAYER {name: "hampus"}) -[:PLAYS_FOR]-> (:TEAM {name: "NIP"})
-MERGE (:PLAYER {name: "Noobster"}) -[:PLAYS_FOR]-> (:TEAM {name: "Ground Zero"})
-MERGE (:PLAYER {name: "Viva"}) -[:PLAYS_FOR]-> (:TEAM {name: "Invictus"})
-MERGE (:PLAYER {name: "ap0c"}) -[:PLAYS_FOR]-> (:TEAM {name: "Looking For Org"})
-MERGE (:PLAYER {name: "jedqr"}) -[:PLAYS_FOR]-> (:TEAM {name: "Wisla Krakow"})
-MERGE (:PLAYER {name: "obj"}) -[:PLAYS_FOR]-> (:TEAM {name: "OFFSET"})
-MERGE (:PLAYER {name: "1962"}) -[:PLAYS_FOR]-> (:TEAM {name: "Isurus"})
-MERGE (:PLAYER {name: "spyleadeR"}) -[:PLAYS_FOR]-> (:TEAM {name: "E-frag.net"})
-MERGE (:PLAYER {name: "SHOCK"}) -[:PLAYS_FOR]-> (:TEAM {name: "SINNERS"})
-MERGE (:PLAYER {name: "kreaz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Finest"})
-MERGE (:PLAYER {name: "EasTor"}) -[:PLAYS_FOR]-> (:TEAM {name: "Movistar Riders"})
-MERGE (:PLAYER {name: "mirbit"}) -[:PLAYS_FOR]-> (:TEAM {name: "ALTERNATE aTTaX"})
-MERGE (:PLAYER {name: "stadodo"}) -[:PLAYS_FOR]-> (:TEAM {name: "SAW"})
-MERGE (:PLAYER {name: "Friis"}) -[:PLAYS_FOR]-> (:TEAM {name: "SK"})
-MERGE (:PLAYER {name: "grux"}) -[:PLAYS_FOR]-> (:TEAM {name: "Savage"})
-MERGE (:PLAYER {name: "dazzLe"}) -[:PLAYS_FOR]-> (:TEAM {name: "eUnited"})
-MERGE (:PLAYER {name: "ayaya"}) -[:PLAYS_FOR]-> (:TEAM {name: "Eclipse"})
-MERGE (:PLAYER {name: "reatz"}) -[:PLAYS_FOR]-> (:TEAM {name: "PRIDE"})
-MERGE (:PLAYER {name: "Stewie2K"}) -[:PLAYS_FOR]-> (:TEAM {name: "Cloud9"})
-MERGE (:PLAYER {name: "kalinka"}) -[:PLAYS_FOR]-> (:TEAM {name: "HellRaisers"})
-MERGE (:PLAYER {name: "Jinxx"}) -[:PLAYS_FOR]-> (:TEAM {name: "Genuine"})
-MERGE (:PLAYER {name: "to1nou"}) -[:PLAYS_FOR]-> (:TEAM {name: "LDLC"})
-MERGE (:PLAYER {name: "siuhy"}) -[:PLAYS_FOR]-> (:TEAM {name: "MOUZ NXT"})
-MERGE (:PLAYER {name: "DickStacy"}) -[:PLAYS_FOR]-> (:TEAM {name: "Grayhound"})
-MERGE (:PLAYER {name: "jR"}) -[:PLAYS_FOR]-> (:TEAM {name: "Vega Squadron"})
-MERGE (:PLAYER {name: "DESPE"}) -[:PLAYS_FOR]-> (:TEAM {name: "Space Soldiers"})
-MERGE (:PLAYER {name: "kioShiMa"}) -[:PLAYS_FOR]-> (:TEAM {name: "Envy"})
-MERGE (:PLAYER {name: "zqkS"}) -[:PLAYS_FOR]-> (:TEAM {name: "Imperial"})
-MERGE (:PLAYER {name: "speed4k"}) -[:PLAYS_FOR]-> (:TEAM {name: "DreamEaters"})
-MERGE (:PLAYER {name: "FugLy"}) -[:PLAYS_FOR]-> (:TEAM {name: "NRG"})
-MERGE (:PLAYER {name: "emagine"}) -[:PLAYS_FOR]-> (:TEAM {name: "ORDER"})
-MERGE (:PLAYER {name: "Polt"}) -[:PLAYS_FOR]-> (:TEAM {name: "1WIN"})
-MERGE (:PLAYER {name: "Nifty"}) -[:PLAYS_FOR]-> (:TEAM {name: "Renegades"})
-MERGE (:PLAYER {name: "Tsogoo"}) -[:PLAYS_FOR]-> (:TEAM {name: "TheMongolz"})
-MERGE (:PLAYER {name: "MINISE"}) -[:PLAYS_FOR]-> (:TEAM {name: "PACT"})
-MERGE (:PLAYER {name: "waterfaLLZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "Quantum Bellator Fire"})
-MERGE (:PLAYER {name: "pounh"}) -[:PLAYS_FOR]-> (:TEAM {name: "Playing Ducks"})
-MERGE (:PLAYER {name: "Zero"}) -[:PLAYS_FOR]-> (:TEAM {name: "GamerLegion"})
-MERGE (:PLAYER {name: "innocent"}) -[:PLAYS_FOR]-> (:TEAM {name: "Anonymo"})
-MERGE (:PLAYER {name: "Relyks"}) -[:PLAYS_FOR]-> (:TEAM {name: "eUnited"})
-MERGE (:PLAYER {name: "fenvicious"}) -[:PLAYS_FOR]-> (:TEAM {name: "Unique"})
-MERGE (:PLAYER {name: "nitr0"}) -[:PLAYS_FOR]-> (:TEAM {name: "Liquid"})
-MERGE (:PLAYER {name: "glace"}) -[:PLAYS_FOR]-> (:TEAM {name: "North Academy"})
-MERGE (:PLAYER {name: "Oderus"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spacestation"})
-MERGE (:PLAYER {name: "1uke"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spirit Academy"})
-MERGE (:PLAYER {name: "Edward"}) -[:PLAYS_FOR]-> (:TEAM {name: "Natus Vincere"})
-MERGE (:PLAYER {name: "leo_drk"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sharks"})
-MERGE (:PLAYER {name: "R0b3n"}) -[:PLAYS_FOR]-> (:TEAM {name: "Unique"})
-MERGE (:PLAYER {name: "dzt"}) -[:PLAYS_FOR]-> (:TEAM {name: "Imperial"})
-MERGE (:PLAYER {name: "SIXER"}) -[:PLAYS_FOR]-> (:TEAM {name: "LDLC"})
-MERGE (:PLAYER {name: "ALLE"}) -[:PLAYS_FOR]-> (:TEAM {name: "Isurus"})
-MERGE (:PLAYER {name: "Lack1"}) -[:PLAYS_FOR]-> (:TEAM {name: "Entropiq"})
-MERGE (:PLAYER {name: "hazed"}) -[:PLAYS_FOR]-> (:TEAM {name: "CLG"})
-MERGE (:PLAYER {name: "xiaosaGe"}) -[:PLAYS_FOR]-> (:TEAM {name: "5POWER"})
-MERGE (:PLAYER {name: "almazer"}) -[:PLAYS_FOR]-> (:TEAM {name: "forZe"})
-MERGE (:PLAYER {name: "kenzor"}) -[:PLAYS_FOR]-> (:TEAM {name: "pro100"})
-MERGE (:PLAYER {name: "Djoko"}) -[:PLAYS_FOR]-> (:TEAM {name: "HEET"})
-MERGE (:PLAYER {name: "cbbk"}) -[:PLAYS_FOR]-> (:TEAM {name: "Lucid Dream"})
-MERGE (:PLAYER {name: "KILLDREAM"}) -[:PLAYS_FOR]-> (:TEAM {name: "AlienTech"})
-MERGE (:PLAYER {name: "Basso"}) -[:PLAYS_FOR]-> (:TEAM {name: "Copenhagen Flames"})
-MERGE (:PLAYER {name: "RoLEX"}) -[:PLAYS_FOR]-> (:TEAM {name: "Signature"})
-MERGE (:PLAYER {name: "SZPERO"}) -[:PLAYS_FOR]-> (:TEAM {name: "Wisla Krakow"})
-MERGE (:PLAYER {name: "zeff"}) -[:PLAYS_FOR]-> (:TEAM {name: "MVP PK"})
-MERGE (:PLAYER {name: "cromen"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nordavind"})
-MERGE (:PLAYER {name: "adreN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Liquid"})
-MERGE (:PLAYER {name: "supra"}) -[:PLAYS_FOR]-> (:TEAM {name: "Gambit Youngsters"})
-MERGE (:PLAYER {name: "MODDII"}) -[:PLAYS_FOR]-> (:TEAM {name: "Heroic"})
-MERGE (:PLAYER {name: "mopoz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Movistar Riders"})
-MERGE (:PLAYER {name: "void"}) -[:PLAYS_FOR]-> (:TEAM {name: "Ground Zero"})
-MERGE (:PLAYER {name: "pyth"}) -[:PLAYS_FOR]-> (:TEAM {name: "NIP"})
-MERGE (:PLAYER {name: "mds"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nemiga"})
-MERGE (:PLAYER {name: "cam"}) -[:PLAYS_FOR]-> (:TEAM {name: "Singularity"})
-MERGE (:PLAYER {name: "freakazoid"}) -[:PLAYS_FOR]-> (:TEAM {name: "Swole Patrol"})
-MERGE (:PLAYER {name: "xseveN"}) -[:PLAYS_FOR]-> (:TEAM {name: "HAVU"})
-MERGE (:PLAYER {name: "Jerry"}) -[:PLAYS_FOR]-> (:TEAM {name: "forZe"})
-MERGE (:PLAYER {name: "peet"}) -[:PLAYS_FOR]-> (:TEAM {name: "AGG"})
-MERGE (:PLAYER {name: "STYKO"}) -[:PLAYS_FOR]-> (:TEAM {name: "HellRaisers"})
-MERGE (:PLAYER {name: "pecks"}) -[:PLAYS_FOR]-> (:TEAM {name: "Chiefs"})
-MERGE (:PLAYER {name: "ImpressioN"}) -[:PLAYS_FOR]-> (:TEAM {name: "NKT"})
-MERGE (:PLAYER {name: "Noktse"}) -[:PLAYS_FOR]-> (:TEAM {name: "Isurus"})
-MERGE (:PLAYER {name: "Liki"}) -[:PLAYS_FOR]-> (:TEAM {name: "Looking For Org"})
-MERGE (:PLAYER {name: "truth"}) -[:PLAYS_FOR]-> (:TEAM {name: "Apeks"})
-MERGE (:PLAYER {name: "vice"}) -[:PLAYS_FOR]-> (:TEAM {name: "Rogue"})
-MERGE (:PLAYER {name: "Bååten"}) -[:PLAYS_FOR]-> (:TEAM {name: "x6tence Galaxy"})
-MERGE (:PLAYER {name: "notaN"}) -[:PLAYS_FOR]-> (:TEAM {name: "MASONIC"})
-MERGE (:PLAYER {name: "reversive"}) -[:PLAYS_FOR]-> (:TEAM {name: "Leviatan"})
-MERGE (:PLAYER {name: "Cabbi"}) -[:PLAYS_FOR]-> (:TEAM {name: "MASONIC"})
-MERGE (:PLAYER {name: "uli"}) -[:PLAYS_FOR]-> (:TEAM {name: "KOVA"})
-MERGE (:PLAYER {name: "VINI"}) -[:PLAYS_FOR]-> (:TEAM {name: "FURIA"})
-MERGE (:PLAYER {name: "Vegi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Virtus.pro"})
-MERGE (:PLAYER {name: "freddieb"}) -[:PLAYS_FOR]-> (:TEAM {name: "Epsilon"})
-MERGE (:PLAYER {name: "MUTiRiS"}) -[:PLAYS_FOR]-> (:TEAM {name: "SAW"})
-MERGE (:PLAYER {name: "SEMPHIS"}) -[:PLAYS_FOR]-> (:TEAM {name: "Splyce"})
-MERGE (:PLAYER {name: "dephh"}) -[:PLAYS_FOR]-> (:TEAM {name: "Complexity"})
-MERGE (:PLAYER {name: "DeathZz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Movistar Riders"})
-MERGE (:PLAYER {name: "magixx"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spirit"})
-MERGE (:PLAYER {name: "robiin"}) -[:PLAYS_FOR]-> (:TEAM {name: "Endpoint"})
-MERGE (:PLAYER {name: "YDNA"}) -[:PLAYS_FOR]-> (:TEAM {name: "Breakaway"})
-MERGE (:PLAYER {name: "gMd"}) -[:PLAYS_FOR]-> (:TEAM {name: "Rogue"})
-MERGE (:PLAYER {name: "ALEX"}) -[:PLAYS_FOR]-> (:TEAM {name: "fnatic"})
-MERGE (:PLAYER {name: "markeloff"}) -[:PLAYS_FOR]-> (:TEAM {name: "FlipSid3"})
-MERGE (:PLAYER {name: "xelos"}) -[:PLAYS_FOR]-> (:TEAM {name: "Lemondogs"})
-MERGE (:PLAYER {name: "Puls3"}) -[:PLAYS_FOR]-> (:TEAM {name: "Endpoint"})
-MERGE (:PLAYER {name: "neptune"}) -[:PLAYS_FOR]-> (:TEAM {name: "Ghost"})
-MERGE (:PLAYER {name: "rbz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Paradox"})
-MERGE (:PLAYER {name: "BENDJI"}) -[:PLAYS_FOR]-> (:TEAM {name: "Singularity"})
-MERGE (:PLAYER {name: "dukefissura"}) -[:PLAYS_FOR]-> (:TEAM {name: "Unique"})
-MERGE (:PLAYER {name: "jaxi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nexus"})
-MERGE (:PLAYER {name: "BARBARR"}) -[:PLAYS_FOR]-> (:TEAM {name: "Epsilon"})
-MERGE (:PLAYER {name: "kory"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sangal"})
-MERGE (:PLAYER {name: "Dima"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spirit"})
-MERGE (:PLAYER {name: "JIaYm"}) -[:PLAYS_FOR]-> (:TEAM {name: "HellRaisers"})
-MERGE (:PLAYER {name: "bubble"}) -[:PLAYS_FOR]-> (:TEAM {name: "Windigo"})
-MERGE (:PLAYER {name: "ANGE1"}) -[:PLAYS_FOR]-> (:TEAM {name: "HellRaisers"})
-MERGE (:PLAYER {name: "kaboose"}) -[:PLAYS_FOR]-> (:TEAM {name: "Selfless"})
-MERGE (:PLAYER {name: "facecrack"}) -[:PLAYS_FOR]-> (:TEAM {name: "forZe"})
-MERGE (:PLAYER {name: "Drone"}) -[:PLAYS_FOR]-> (:TEAM {name: "Splyce"})
-MERGE (:PLAYER {name: "JACKZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "G2"})
-MERGE (:PLAYER {name: "krii"}) -[:PLAYS_FOR]-> (:TEAM {name: "EPG"})
-MERGE (:PLAYER {name: "k1to"}) -[:PLAYS_FOR]-> (:TEAM {name: "BIG"})
-MERGE (:PLAYER {name: "sXe"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nexus"})
-MERGE (:PLAYER {name: "Dosia"}) -[:PLAYS_FOR]-> (:TEAM {name: "Gambit"})
-MERGE (:PLAYER {name: "morelz"}) -[:PLAYS_FOR]-> (:TEAM {name: "PRIDE"})
-MERGE (:PLAYER {name: "realziN"}) -[:PLAYS_FOR]-> (:TEAM {name: "W7M"})
-MERGE (:PLAYER {name: "vanity"}) -[:PLAYS_FOR]-> (:TEAM {name: "Chaos"})
-MERGE (:PLAYER {name: "fitch"}) -[:PLAYS_FOR]-> (:TEAM {name: "AVANGAR"})
-MERGE (:PLAYER {name: "larsen"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "gade"}) -[:PLAYS_FOR]-> (:TEAM {name: "North"})
-MERGE (:PLAYER {name: "SAGGERTON"}) -[:PLAYS_FOR]-> (:TEAM {name: "iGame.com"})
-MERGE (:PLAYER {name: "rmn"}) -[:PLAYS_FOR]-> (:TEAM {name: "SAW"})
-MERGE (:PLAYER {name: "jabbi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Copenhagen Flames"})
-MERGE (:PLAYER {name: "gla1ve"}) -[:PLAYS_FOR]-> (:TEAM {name: "Astralis"})
-MERGE (:PLAYER {name: "pesadelo"}) -[:PLAYS_FOR]-> (:TEAM {name: "TeamOne"})
-MERGE (:PLAYER {name: "Lukki"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "AZR"}) -[:PLAYS_FOR]-> (:TEAM {name: "Renegades"})
-MERGE (:PLAYER {name: "Daffu"}) -[:PLAYS_FOR]-> (:TEAM {name: "ECSTATIC"})
-MERGE (:PLAYER {name: "ryotzz"}) -[:PLAYS_FOR]-> (:TEAM {name: "W7M"})
-MERGE (:PLAYER {name: "djay"}) -[:PLAYS_FOR]-> (:TEAM {name: "Party Astronauts"})
-MERGE (:PLAYER {name: "J1rah"}) -[:PLAYS_FOR]-> (:TEAM {name: "ORDER"})
-MERGE (:PLAYER {name: "Jonji"}) -[:PLAYS_FOR]-> (:TEAM {name: "Bad News Bears"})
-MERGE (:PLAYER {name: "Furlan"}) -[:PLAYS_FOR]-> (:TEAM {name: "AGO"})
-MERGE (:PLAYER {name: "DAVEY"}) -[:PLAYS_FOR]-> (:TEAM {name: "Splyce"})
-MERGE (:PLAYER {name: "WOOD7"}) -[:PLAYS_FOR]-> (:TEAM {name: "MIBR"})
-MERGE (:PLAYER {name: "bodyy"}) -[:PLAYS_FOR]-> (:TEAM {name: "G2"})
-MERGE (:PLAYER {name: "stellar"}) -[:PLAYS_FOR]-> (:TEAM {name: "Party Astronauts"})
-MERGE (:PLAYER {name: "Xizt"}) -[:PLAYS_FOR]-> (:TEAM {name: "NIP"})
-MERGE (:PLAYER {name: "RUBINO"}) -[:PLAYS_FOR]-> (:TEAM {name: "Dignitas"})
-MERGE (:PLAYER {name: "AdreN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Gambit"})
-MERGE (:PLAYER {name: "apocdud"}) -[:PLAYS_FOR]-> (:TEAM {name: "VERTEX"})
-MERGE (:PLAYER {name: "bew"}) -[:PLAYS_FOR]-> (:TEAM {name: "New England Whalers"})
-MERGE (:PLAYER {name: "ryann"}) -[:PLAYS_FOR]-> (:TEAM {name: "Singularity"})
-MERGE (:PLAYER {name: "Zix"}) -[:PLAYS_FOR]-> (:TEAM {name: "Bpro"})
-MERGE (:PLAYER {name: "NickelBack"}) -[:PLAYS_FOR]-> (:TEAM {name: "Entropiq"})
-MERGE (:PLAYER {name: "DeadFox"}) -[:PLAYS_FOR]-> (:TEAM {name: "HellRaisers"})
-MERGE (:PLAYER {name: "isak"}) -[:PLAYS_FOR]-> (:TEAM {name: "GamerLegion"})
-MERGE (:PLAYER {name: "NEKIZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "paiN"})
-MERGE (:PLAYER {name: "Perfecto"}) -[:PLAYS_FOR]-> (:TEAM {name: "Natus Vincere"})
-MERGE (:PLAYER {name: "zende"}) -[:PLAYS_FOR]-> (:TEAM {name: "DenDD"})
-MERGE (:PLAYER {name: "bq"}) -[:PLAYS_FOR]-> (:TEAM {name: "Lilmix"})
-MERGE (:PLAYER {name: "chop"}) -[:PLAYS_FOR]-> (:TEAM {name: "Carpe Diem"})
-MERGE (:PLAYER {name: "raalz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sprout"})
-MERGE (:PLAYER {name: "anger"}) -[:PLAYS_FOR]-> (:TEAM {name: "Mythic"})
-MERGE (:PLAYER {name: "Spiidi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sprout"})
-MERGE (:PLAYER {name: "Llamas"}) -[:PLAYS_FOR]-> (:TEAM {name: "Ground Zero"})
-MERGE (:PLAYER {name: "doto"}) -[:PLAYS_FOR]-> (:TEAM {name: "HAVU"})
-MERGE (:PLAYER {name: "tifa"}) -[:PLAYS_FOR]-> (:TEAM {name: "Imperial"})
-MERGE (:PLAYER {name: "sinnopsyy"}) -[:PLAYS_FOR]-> (:TEAM {name: "BLINK"})
-MERGE (:PLAYER {name: "kwezz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "SHOOWTiME"}) -[:PLAYS_FOR]-> (:TEAM {name: "Luminosity"})
-MERGE (:PLAYER {name: "Boombl4"}) -[:PLAYS_FOR]-> (:TEAM {name: "Natus Vincere"})
-MERGE (:PLAYER {name: "BIT"}) -[:PLAYS_FOR]-> (:TEAM {name: "TeamOne"})
-MERGE (:PLAYER {name: "wiz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Carpe Diem"})
-MERGE (:PLAYER {name: "syken"}) -[:PLAYS_FOR]-> (:TEAM {name: "expert"})
-MERGE (:PLAYER {name: "Radifaction"}) -[:PLAYS_FOR]-> (:TEAM {name: "Secret"})
-MERGE (:PLAYER {name: "jnt"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sharks"})
-MERGE (:PLAYER {name: "prt"}) -[:PLAYS_FOR]-> (:TEAM {name: "TeamOne"})
-MERGE (:PLAYER {name: "niki1"}) -[:PLAYS_FOR]-> (:TEAM {name: "FATE"})
-MERGE (:PLAYER {name: "BURNRUOk"}) -[:PLAYS_FOR]-> (:TEAM {name: "Ground Zero"})
-MERGE (:PLAYER {name: "Sergiz"}) -[:PLAYS_FOR]-> (:TEAM {name: "CR4ZY"})
-MERGE (:PLAYER {name: "DeStRoYeR"}) -[:PLAYS_FOR]-> (:TEAM {name: "Invictus"})
-MERGE (:PLAYER {name: "PERCY"}) -[:PLAYS_FOR]-> (:TEAM {name: "Secret"})
-MERGE (:PLAYER {name: "Fadey"}) -[:PLAYS_FOR]-> (:TEAM {name: "ATK"})
-MERGE (:PLAYER {name: "blocker"}) -[:PLAYS_FOR]-> (:TEAM {name: "Windigo"})
-MERGE (:PLAYER {name: "RUSH"}) -[:PLAYS_FOR]-> (:TEAM {name: "Cloud9"})
-MERGE (:PLAYER {name: "SPELLAN"}) -[:PLAYS_FOR]-> (:TEAM {name: "SKADE"})
-MERGE (:PLAYER {name: "RpK"}) -[:PLAYS_FOR]-> (:TEAM {name: "Vitality"})
-MERGE (:PLAYER {name: "ZEDKO"}) -[:PLAYS_FOR]-> (:TEAM {name: "SINNERS"})
-MERGE (:PLAYER {name: "mono"}) -[:PLAYS_FOR]-> (:TEAM {name: "x-kom"})
-MERGE (:PLAYER {name: "FinigaN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Espada"})
-MERGE (:PLAYER {name: "Keoz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Syman"})
-MERGE (:PLAYER {name: "leman"}) -[:PLAYS_FOR]-> (:TEAM {name: "AGO"})
-MERGE (:PLAYER {name: "jmqa"}) -[:PLAYS_FOR]-> (:TEAM {name: "Quantum Bellator Fire"})
-MERGE (:PLAYER {name: "Queenix"}) -[:PLAYS_FOR]-> (:TEAM {name: "MASONIC"})
-MERGE (:PLAYER {name: "propleh"}) -[:PLAYS_FOR]-> (:TEAM {name: "1WIN"})
-MERGE (:PLAYER {name: "oskarish"}) -[:PLAYS_FOR]-> (:TEAM {name: "x-kom"})
-MERGE (:PLAYER {name: "RuStY"}) -[:PLAYS_FOR]-> (:TEAM {name: "GamerLegion"})
-MERGE (:PLAYER {name: "Marek"}) -[:PLAYS_FOR]-> (:TEAM {name: "EHOME"})
-MERGE (:PLAYER {name: "seb"}) -[:PLAYS_FOR]-> (:TEAM {name: "Ghost"})
-MERGE (:PLAYER {name: "kUcheR"}) -[:PLAYS_FOR]-> (:TEAM {name: "HellRaisers"})
-MERGE (:PLAYER {name: "stk"}) -[:PLAYS_FOR]-> (:TEAM {name: "Beyond"})
-MERGE (:PLAYER {name: "ELUSIVE"}) -[:PLAYS_FOR]-> (:TEAM {name: "Bravado"})
-MERGE (:PLAYER {name: "ice"}) -[:PLAYS_FOR]-> (:TEAM {name: "Unique"})
-MERGE (:PLAYER {name: "SOKER"}) -[:PLAYS_FOR]-> (:TEAM {name: "Movistar Riders"})
-MERGE (:PLAYER {name: "DEVIL"}) -[:PLAYS_FOR]-> (:TEAM {name: "LDLC"})
-MERGE (:PLAYER {name: "seized"}) -[:PLAYS_FOR]-> (:TEAM {name: "Natus Vincere"})
-MERGE (:PLAYER {name: "MAIROLLS"}) -[:PLAYS_FOR]-> (:TEAM {name: "Alpha Red"})
-MERGE (:PLAYER {name: "Drea3er"}) -[:PLAYS_FOR]-> (:TEAM {name: "New4"})
-MERGE (:PLAYER {name: "PKL"}) -[:PLAYS_FOR]-> (:TEAM {name: "paiN"})
-MERGE (:PLAYER {name: "gabesson"}) -[:PLAYS_FOR]-> (:TEAM {name: "GameAgents"})
-MERGE (:PLAYER {name: "Sapec"}) -[:PLAYS_FOR]-> (:TEAM {name: "Young Ninjas"})
-MERGE (:PLAYER {name: "Mayker"}) -[:PLAYS_FOR]-> (:TEAM {name: "Genuine"})
-MERGE (:PLAYER {name: "TMB"}) -[:PLAYS_FOR]-> (:TEAM {name: "MAD Lions"})
-MERGE (:PLAYER {name: "The eLiVe"}) -[:PLAYS_FOR]-> (:TEAM {name: "Enterprise"})
-MERGE (:PLAYER {name: "KHRN"}) -[:PLAYS_FOR]-> (:TEAM {name: "SJ"})
-MERGE (:PLAYER {name: "chopper"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spirit"})
-MERGE (:PLAYER {name: "Leaf"}) -[:PLAYS_FOR]-> (:TEAM {name: "Lucid Dream"})
-MERGE (:PLAYER {name: "starix"}) -[:PLAYS_FOR]-> (:TEAM {name: "Natus Vincere"})
-MERGE (:PLAYER {name: "reltuC"}) -[:PLAYS_FOR]-> (:TEAM {name: "CLG"})
-MERGE (:PLAYER {name: "Surreal"}) -[:PLAYS_FOR]-> (:TEAM {name: "Endpoint"})
-MERGE (:PLAYER {name: "Hyper"}) -[:PLAYS_FOR]-> (:TEAM {name: "AGG"})
-MERGE (:PLAYER {name: "phr"}) -[:PLAYS_FOR]-> (:TEAM {name: "Illuminar"})
-MERGE (:PLAYER {name: "LUCAS1"}) -[:PLAYS_FOR]-> (:TEAM {name: "Immortals"})
-MERGE (:PLAYER {name: "Maniac"}) -[:PLAYS_FOR]-> (:TEAM {name: "LDLC"})
-MERGE (:PLAYER {name: "nafany"}) -[:PLAYS_FOR]-> (:TEAM {name: "Gambit Youngsters"})
-MERGE (:PLAYER {name: "SmithZz"}) -[:PLAYS_FOR]-> (:TEAM {name: "G2"})
-MERGE (:PLAYER {name: "0i"}) -[:PLAYS_FOR]-> (:TEAM {name: "New4"})
-MERGE (:PLAYER {name: "kaper"}) -[:PLAYS_FOR]-> (:TEAM {name: "AGO"})
-MERGE (:PLAYER {name: "Aleksib"}) -[:PLAYS_FOR]-> (:TEAM {name: "OG"})
-MERGE (:PLAYER {name: "SEMINTE"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nexus"})
-MERGE (:PLAYER {name: "SADDYX"}) -[:PLAYS_FOR]-> (:TEAM {name: "SJ"})
-MERGE (:PLAYER {name: "maeVe"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "stanislaw"}) -[:PLAYS_FOR]-> (:TEAM {name: "Evil Geniuses"})
-MERGE (:PLAYER {name: "Kairi"}) -[:PLAYS_FOR]-> (:TEAM {name: "x6tence"})
-MERGE (:PLAYER {name: "Tommy"}) -[:PLAYS_FOR]-> (:TEAM {name: "BOOT-d[S]"})
-MERGE (:PLAYER {name: "HOLMES"}) -[:PLAYS_FOR]-> (:TEAM {name: "Squared"})
-MERGE (:PLAYER {name: "ProbLeM"}) -[:PLAYS_FOR]-> (:TEAM {name: "HellRaisers"})
-MERGE (:PLAYER {name: "w1nt3r"}) -[:PLAYS_FOR]-> (:TEAM {name: "Unique"})
-MERGE (:PLAYER {name: "bodito"}) -[:PLAYS_FOR]-> (:TEAM {name: "Budapest Five"})
-MERGE (:PLAYER {name: "xms"}) -[:PLAYS_FOR]-> (:TEAM {name: "Envy"})
-MERGE (:PLAYER {name: "tiziaN"}) -[:PLAYS_FOR]-> (:TEAM {name: "BIG"})
-MERGE (:PLAYER {name: "Uber"}) -[:PLAYS_FOR]-> (:TEAM {name: "Enemy"})
-MERGE (:PLAYER {name: "JazzPimp"}) -[:PLAYS_FOR]-> (:TEAM {name: "Gaimin Gladiators"})
-MERGE (:PLAYER {name: "nbl"}) -[:PLAYS_FOR]-> (:TEAM {name: "Isurus"})
-MERGE (:PLAYER {name: "Walco"}) -[:PLAYS_FOR]-> (:TEAM {name: "Carpe Diem"})
-MERGE (:PLAYER {name: "Snappi"}) -[:PLAYS_FOR]-> (:TEAM {name: "ENCE"})
-MERGE (:PLAYER {name: "glow"}) -[:PLAYS_FOR]-> (:TEAM {name: "MVP PK"})
-MERGE (:PLAYER {name: "Kvik"}) -[:PLAYS_FOR]-> (:TEAM {name: "Quantum Bellator Fire"})
-MERGE (:PLAYER {name: "Kristou"}) -[:PLAYS_FOR]-> (:TEAM {name: "AGF"})
-MERGE (:PLAYER {name: "expro"}) -[:PLAYS_FOR]-> (:TEAM {name: "Lynn Vision"})
-MERGE (:PLAYER {name: "misutaaa"}) -[:PLAYS_FOR]-> (:TEAM {name: "Vitality"})
-MERGE (:PLAYER {name: "MAJ3R"}) -[:PLAYS_FOR]-> (:TEAM {name: "Space Soldiers"})
-MERGE (:PLAYER {name: "LOGAN"}) -[:PLAYS_FOR]-> (:TEAM {name: "LDLC"})
-MERGE (:PLAYER {name: "RZU"}) -[:PLAYS_FOR]-> (:TEAM {name: "Triumph"})
-MERGE (:PLAYER {name: "nosraC"}) -[:PLAYS_FOR]-> (:TEAM {name: "Gaimin Gladiators"})
-MERGE (:PLAYER {name: "smF"}) -[:PLAYS_FOR]-> (:TEAM {name: "CPH Wolves"})
-MERGE (:PLAYER {name: "YJ"}) -[:PLAYS_FOR]-> (:TEAM {name: "W7M"})
-MERGE (:PLAYER {name: "kinqie"}) -[:PLAYS_FOR]-> (:TEAM {name: "DreamEaters"})
-MERGE (:PLAYER {name: "NEO"}) -[:PLAYS_FOR]-> (:TEAM {name: "HONORIS"})
-MERGE (:PLAYER {name: "tahsiN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Berzerk"})
-MERGE (:PLAYER {name: "ponczek"}) -[:PLAYS_FOR]-> (:TEAM {name: "Wisla Krakow"})
-MERGE (:PLAYER {name: "denis"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sprout"})
-MERGE (:PLAYER {name: "maNkz"}) -[:PLAYS_FOR]-> (:TEAM {name: "ECSTATIC"})
-MERGE (:PLAYER {name: "alexRr"}) -[:PLAYS_FOR]-> (:TEAM {name: "expert"})
-MERGE (:PLAYER {name: "dezon"}) -[:PLAYS_FOR]-> (:TEAM {name: "Savage"})
-MERGE (:PLAYER {name: "dumz"}) -[:PLAYS_FOR]-> (:TEAM {name: "DenDD"})
-MERGE (:PLAYER {name: "JT"}) -[:PLAYS_FOR]-> (:TEAM {name: "Extra Salt"})
-MERGE (:PLAYER {name: "friberg"}) -[:PLAYS_FOR]-> (:TEAM {name: "Dignitas"})
-MERGE (:PLAYER {name: "caike"}) -[:PLAYS_FOR]-> (:TEAM {name: "g3x"})
-MERGE (:PLAYER {name: "H4RR3"}) -[:PLAYS_FOR]-> (:TEAM {name: "777"})
-MERGE (:PLAYER {name: "TaZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "HONORIS"})
-MERGE (:PLAYER {name: "steel"}) -[:PLAYS_FOR]-> (:TEAM {name: "Movistar Riders"})
-MERGE (:PLAYER {name: "devoduvek"}) -[:PLAYS_FOR]-> (:TEAM {name: "LDLC"})
-MERGE (:PLAYER {name: "dERZKIY"}) -[:PLAYS_FOR]-> (:TEAM {name: "K29"})
-MERGE (:PLAYER {name: "Console"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "CONNOR93"}) -[:PLAYS_FOR]-> (:TEAM {name: "Ghost"})
-MERGE (:PLAYER {name: "soju_j"}) -[:PLAYS_FOR]-> (:TEAM {name: "Legacy"})
-MERGE (:PLAYER {name: "darko"}) -[:PLAYS_FOR]-> (:TEAM {name: "PACT"})
-MERGE (:PLAYER {name: "PR1mE"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "KrizzeN"}) -[:PLAYS_FOR]-> (:TEAM {name: "AVANGAR"})
-MERGE (:PLAYER {name: "beastik"}) -[:PLAYS_FOR]-> (:TEAM {name: "SINNERS"})
-MERGE (:PLAYER {name: "Grusarn"}) -[:PLAYS_FOR]-> (:TEAM {name: "777"})
-MERGE (:PLAYER {name: "RAiLWAY"}) -[:PLAYS_FOR]-> (:TEAM {name: "INDE IRAE"})
-MERGE (:PLAYER {name: "AcilioN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Apeks"})
-MERGE (:PLAYER {name: "flashie"}) -[:PLAYS_FOR]-> (:TEAM {name: "GameAgents"})
-MERGE (:PLAYER {name: "strux1"}) -[:PLAYS_FOR]-> (:TEAM {name: "PENTA"})
-MERGE (:PLAYER {name: "ecfN"}) -[:PLAYS_FOR]-> (:TEAM {name: "ALTERNATE aTTaX"})
-MERGE (:PLAYER {name: "oxygeN"}) -[:PLAYS_FOR]-> (:TEAM {name: "SKADE"})
-MERGE (:PLAYER {name: "Karsa"}) -[:PLAYS_FOR]-> (:TEAM {name: "Flash"})
-MERGE (:PLAYER {name: "arvid"}) -[:PLAYS_FOR]-> (:TEAM {name: "SJ"})
-MERGE (:PLAYER {name: "Inzta"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "Rock1nG"}) -[:PLAYS_FOR]-> (:TEAM {name: "SKADE"})
-MERGE (:PLAYER {name: "uNdo"}) -[:PLAYS_FOR]-> (:TEAM {name: "Unique"})
-MERGE (:PLAYER {name: "vSa"}) -[:PLAYS_FOR]-> (:TEAM {name: "Rise Nation"})
-MERGE (:PLAYER {name: "Fifflaren"}) -[:PLAYS_FOR]-> (:TEAM {name: "NIP"})
-MERGE (:PLAYER {name: "boX"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nemiga"})
-MERGE (:PLAYER {name: "kzy"}) -[:PLAYS_FOR]-> (:TEAM {name: "EURONICS"})
-MERGE (:PLAYER {name: "TOAO"}) -[:PLAYS_FOR]-> (:TEAM {name: "AGO"})
-MERGE (:PLAYER {name: "SileNt"}) -[:PLAYS_FOR]-> (:TEAM {name: "Swole Patrol"})
-MERGE (:PLAYER {name: "Twixie"}) -[:PLAYS_FOR]-> (:TEAM {name: "KOVA"})
-MERGE (:PLAYER {name: "tonyblack"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spirit"})
-MERGE (:PLAYER {name: "BRACE"}) -[:PLAYS_FOR]-> (:TEAM {name: "VERTEX"})
-MERGE (:PLAYER {name: "rafftu"}) -[:PLAYS_FOR]-> (:TEAM {name: "SKADE"})
-MERGE (:PLAYER {name: "arch"}) -[:PLAYS_FOR]-> (:TEAM {name: "Preparation"})
-MERGE (:PLAYER {name: "Sidney"}) -[:PLAYS_FOR]-> (:TEAM {name: "UNGENTIUM"})
-MERGE (:PLAYER {name: "interz"}) -[:PLAYS_FOR]-> (:TEAM {name: "Gambit Youngsters"})
-MERGE (:PLAYER {name: "EXUS"}) -[:PLAYS_FOR]-> (:TEAM {name: "PRIDE"})
-MERGE (:PLAYER {name: "RIZZZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "OFFSET"})
-MERGE (:PLAYER {name: "LOMME"}) -[:PLAYS_FOR]-> (:TEAM {name: "North Academy"})
-MERGE (:PLAYER {name: "Polly"}) -[:PLAYS_FOR]-> (:TEAM {name: "LGB"})
-MERGE (:PLAYER {name: "Ex6TenZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "Titan"})
-MERGE (:PLAYER {name: "ub1que"}) -[:PLAYS_FOR]-> (:TEAM {name: "EPG"})
-MERGE (:PLAYER {name: "Noisia"}) -[:PLAYS_FOR]-> (:TEAM {name: "AVANT"})
-MERGE (:PLAYER {name: "tutehen"}) -[:PLAYS_FOR]-> (:TEAM {name: "VELOX"})
-MERGE (:PLAYER {name: "ngiN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Space Soldiers"})
-MERGE (:PLAYER {name: "forget"}) -[:PLAYS_FOR]-> (:TEAM {name: "5POWER"})
-MERGE (:PLAYER {name: "Shakezullah"}) -[:PLAYS_FOR]-> (:TEAM {name: "Bad News Bears"})
-MERGE (:PLAYER {name: "repo"}) -[:PLAYS_FOR]-> (:TEAM {name: "PRIDE"})
-MERGE (:PLAYER {name: "neaLaN"}) -[:PLAYS_FOR]-> (:TEAM {name: "K23"})
-MERGE (:PLAYER {name: "DANZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "Kanga"})
-MERGE (:PLAYER {name: "emi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Valiance"})
-MERGE (:PLAYER {name: "Duplicate"}) -[:PLAYS_FOR]-> (:TEAM {name: "SKADE"})
-MERGE (:PLAYER {name: "hutji"}) -[:PLAYS_FOR]-> (:TEAM {name: "Vega Squadron"})
-MERGE (:PLAYER {name: "crisby"}) -[:PLAYS_FOR]-> (:TEAM {name: "ALTERNATE aTTaX"})
-MERGE (:PLAYER {name: "matty"}) -[:PLAYS_FOR]-> (:TEAM {name: "EC Brugge"})
-MERGE (:PLAYER {name: "mynio"}) -[:PLAYS_FOR]-> (:TEAM {name: "Wisla Krakow"})
-MERGE (:PLAYER {name: "SkulL"}) -[:PLAYS_FOR]-> (:TEAM {name: "Genuine"})
-MERGE (:PLAYER {name: "quix"}) -[:PLAYS_FOR]-> (:TEAM {name: "Lilmix"})
-MERGE (:PLAYER {name: "ztr"}) -[:PLAYS_FOR]-> (:TEAM {name: "Young Ninjas"})
-MERGE (:PLAYER {name: "kiR"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "TACO"}) -[:PLAYS_FOR]-> (:TEAM {name: "GODSENT"})
-MERGE (:PLAYER {name: "aVN"}) -[:PLAYS_FOR]-> (:TEAM {name: "4glory"})
-MERGE (:PLAYER {name: "S0tF1k"}) -[:PLAYS_FOR]-> (:TEAM {name: "Spirit"})
-MERGE (:PLAYER {name: "hitMouse"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nemiga"})
-MERGE (:PLAYER {name: "arki"}) -[:PLAYS_FOR]-> (:TEAM {name: "SAW"})
-MERGE (:PLAYER {name: "Xp3"}) -[:PLAYS_FOR]-> (:TEAM {name: "Winterfox"})
-MERGE (:PLAYER {name: "sorrow"}) -[:PLAYS_FOR]-> (:TEAM {name: "Unique"})
-MERGE (:PLAYER {name: "pNshr"}) -[:PLAYS_FOR]-> (:TEAM {name: "Windigo"})
-MERGE (:PLAYER {name: "MSL"}) -[:PLAYS_FOR]-> (:TEAM {name: "Dignitas"})
-MERGE (:PLAYER {name: "SANJI"}) -[:PLAYS_FOR]-> (:TEAM {name: "Virtus.pro"})
-MERGE (:PLAYER {name: "akez"}) -[:PLAYS_FOR]-> (:TEAM {name: "777"})
-MERGE (:PLAYER {name: "ncl"}) -[:PLAYS_FOR]-> (:TEAM {name: "TheMongolz"})
-MERGE (:PLAYER {name: "Luz"}) -[:PLAYS_FOR]-> (:TEAM {name: "PRIDE"})
-MERGE (:PLAYER {name: "Zeus"}) -[:PLAYS_FOR]-> (:TEAM {name: "Natus Vincere"})
-MERGE (:PLAYER {name: "nak"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sharks"})
-MERGE (:PLAYER {name: "arya"}) -[:PLAYS_FOR]-> (:TEAM {name: "Splyce"})
-MERGE (:PLAYER {name: "Dav"}) -[:PLAYS_FOR]-> (:TEAM {name: "Squared"})
-MERGE (:PLAYER {name: "karrigan"}) -[:PLAYS_FOR]-> (:TEAM {name: "FaZe"})
-MERGE (:PLAYER {name: "pietola"}) -[:PLAYS_FOR]-> (:TEAM {name: "KOVA"})
-MERGE (:PLAYER {name: "svyat"}) -[:PLAYS_FOR]-> (:TEAM {name: "Hard Legion"})
-MERGE (:PLAYER {name: "BTN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nexus"})
-MERGE (:PLAYER {name: "xartE"}) -[:PLAYS_FOR]-> (:TEAM {name: "SJ"})
-MERGE (:PLAYER {name: "tecek"}) -[:PLAYS_FOR]-> (:TEAM {name: "Izako Boars"})
-MERGE (:PLAYER {name: "LEGIJA"}) -[:PLAYS_FOR]-> (:TEAM {name: "BIG"})
-MERGE (:PLAYER {name: "roman"}) -[:PLAYS_FOR]-> (:TEAM {name: "Nemiga"})
-MERGE (:PLAYER {name: "Shara"}) -[:PLAYS_FOR]-> (:TEAM {name: "spray'n'pray"})
-MERGE (:PLAYER {name: "wayLander"}) -[:PLAYS_FOR]-> (:TEAM {name: "FlipSid3"})
-MERGE (:PLAYER {name: "BONA"}) -[:PLAYS_FOR]-> (:TEAM {name: "SJ"})
-MERGE (:PLAYER {name: "sAw"}) -[:PLAYS_FOR]-> (:TEAM {name: "HAVU"})
-MERGE (:PLAYER {name: "kRYSTAL"}) -[:PLAYS_FOR]-> (:TEAM {name: "PENTA"})
-MERGE (:PLAYER {name: "MiGHTYMAX"}) -[:PLAYS_FOR]-> (:TEAM {name: "Endpoint"})
-MERGE (:PLAYER {name: "ben1337"}) -[:PLAYS_FOR]-> (:TEAM {name: "Party Astronauts"})
-MERGE (:PLAYER {name: "crush"}) -[:PLAYS_FOR]-> (:TEAM {name: "pro100"})
-MERGE (:PLAYER {name: "balblna"}) -[:PLAYS_FOR]-> (:TEAM {name: "Quantum Bellator Fire"})
-MERGE (:PLAYER {name: "sycrone"}) -[:PLAYS_FOR]-> (:TEAM {name: "Sprout"})
-MERGE (:PLAYER {name: "nkl"}) -[:PLAYS_FOR]-> (:TEAM {name: "E-frag.net"})
-MERGE (:PLAYER {name: "hooch"}) -[:PLAYS_FOR]-> (:TEAM {name: "EPG"})
-MERGE (:PLAYER {name: "Golden"}) -[:PLAYS_FOR]-> (:TEAM {name: "fnatic"})
-MERGE (:PLAYER {name: "lunAtic"}) -[:PLAYS_FOR]-> (:TEAM {name: "PACT"})
-MERGE (:PLAYER {name: "Adam9130"}) -[:PLAYS_FOR]-> (:TEAM {name: "Into the Breach"})
-MERGE (:PLAYER {name: "FNS"}) -[:PLAYS_FOR]-> (:TEAM {name: "CLG"})
-MERGE (:PLAYER {name: "spiker"}) -[:PLAYS_FOR]-> (:TEAM {name: "Monolith"})
-MERGE (:PLAYER {name: "JiNKZ"}) -[:PLAYS_FOR]-> (:TEAM {name: "3DMAX"})
-MERGE (:PLAYER {name: "MAiNLiNE"}) -[:PLAYS_FOR]-> (:TEAM {name: "Enemy"})
-MERGE (:PLAYER {name: "Psycho"}) -[:PLAYS_FOR]-> (:TEAM {name: "Run or Die"})
-MERGE (:PLAYER {name: "pronax"}) -[:PLAYS_FOR]-> (:TEAM {name: "fnatic"})
-MERGE (:PLAYER {name: "Polen"}) -[:PLAYS_FOR]-> (:TEAM {name: "Mythic"})
-MERGE (:PLAYER {name: "ScrunK"}) -[:PLAYS_FOR]-> (:TEAM {name: "ALTERNATE aTTaX"})
-MERGE (:PLAYER {name: "Lambert"}) -[:PLAYS_FOR]-> (:TEAM {name: "LDLC"})
-MERGE (:PLAYER {name: "LeX"}) -[:PLAYS_FOR]-> (:TEAM {name: "Mythic"})
-MERGE (:PLAYER {name: "torben"}) -[:PLAYS_FOR]-> (:TEAM {name: "Fragsters"})
-MERGE (:PLAYER {name: "JD"}) -[:PLAYS_FOR]-> (:TEAM {name: "madlikewizards"})
-MERGE (:PLAYER {name: "seang@res"}) -[:PLAYS_FOR]-> (:TEAM {name: "Cloud9"})
-MERGE (:PLAYER {name: "daps"}) -[:PLAYS_FOR]-> (:TEAM {name: "NRG"})
-MERGE (:PLAYER {name: "advent"}) -[:PLAYS_FOR]-> (:TEAM {name: "ViCi"})
-MERGE (:PLAYER {name: "flowsicK"}) -[:PLAYS_FOR]-> (:TEAM {name: "Denial"})
-MERGE (:PLAYER {name: "birdfromsky"}) -[:PLAYS_FOR]-> (:TEAM {name: "ECSTATIC"})
-MERGE (:PLAYER {name: "BERRY"}) -[:PLAYS_FOR]-> (:TEAM {name: "Ambush"})
-MERGE (:PLAYER {name: "nawrot"}) -[:PLAYS_FOR]-> (:TEAM {name: "AVEZ"})
-MERGE (:PLAYER {name: "HooXi"}) -[:PLAYS_FOR]-> (:TEAM {name: "Copenhagen Flames"})
-MERGE (:PLAYER {name: "def"}) -[:PLAYS_FOR]-> (:TEAM {name: "pro100"})
-MERGE (:PLAYER {name: "djL"}) -[:PLAYS_FOR]-> (:TEAM {name: "Chaos"})
-MERGE (:PLAYER {name: "Devilwalk"}) -[:PLAYS_FOR]-> (:TEAM {name: "fnatic"})
-MERGE (:PLAYER {name: "Twista"}) -[:PLAYS_FOR]-> (:TEAM {name: "RCTIC"})
-MERGE (:PLAYER {name: "gob b"}) -[:PLAYS_FOR]-> (:TEAM {name: "BIG"})
-MERGE (:PLAYER {name: "Slemmy"}) -[:PLAYS_FOR]-> (:TEAM {name: "Complexity"})
-MERGE (:PLAYER {name: "SolEk"}) -[:PLAYS_FOR]-> (:TEAM {name: "ALTERNATE aTTaX"})
-MERGE (:PLAYER {name: "PASHANOJ"}) -[:PLAYS_FOR]-> (:TEAM {name: "Unique"})
-MERGE (:PLAYER {name: "B1ad3"}) -[:PLAYS_FOR]-> (:TEAM {name: "FlipSid3"})
-MERGE (:PLAYER {name: "netrick"}) -[:PLAYS_FOR]-> (:TEAM {name: "AGF"})
-MERGE (:PLAYER {name: "HUNDEN"}) -[:PLAYS_FOR]-> (:TEAM {name: "Tricked"})
-MERGE (:PLAYER {name: "RuFire"}) -[:PLAYS_FOR]-> (:TEAM {name: "SG.pro"})
-MERGE (:PLAYER {name: "OCEAN"}) -[:PLAYS_FOR]-> (:TEAM {name: "subtLe"})
+CREATE
+(aZywOo:PLAYER {name: "ZywOo"}),
+(aFalleN:PLAYER {name: "FalleN"}),
+(afer:PLAYER {name: "fer"}),
+(aTACO:PLAYER {name: "TACO"}),
+(afelps:PLAYER {name: "felps"}),
+(afnx:PLAYER {name: "fnx"}),
+(aboltz:PLAYER {name: "boltz"}),
+(as1mple:PLAYER {name: "s1mple"}),
+(ash1ro:PLAYER {name: "sh1ro"}),
+(adeko:PLAYER {name: "deko"}),
+(aKaze:PLAYER {name: "Kaze"}),
+(adegster:PLAYER {name: "degster"}),
+(asmooya:PLAYER {name: "smooya"}),
+(asterling:PLAYER {name: "sterling"}),
+(aXANTARES:PLAYER {name: "XANTARES"}),
+(atorzsi:PLAYER {name: "torzsi"}),
+(aDANK1NG:PLAYER {name: "DANK1NG"}),
+(adevice:PLAYER {name: "device"}),
+(aSENSEi:PLAYER {name: "SENSEi"}),
+(aNiKo:PLAYER {name: "NiKo"}),
+(aBnTeT:PLAYER {name: "BnTeT"}),
+(acoldzera:PLAYER {name: "coldzera"}),
+(aXigN:PLAYER {name: "XigN"}),
+(aSico:PLAYER {name: "Sico"}),
+(ablameF:PLAYER {name: "blameF"}),
+(aKSCERATO:PLAYER {name: "KSCERATO"}),
+(aBenkai:PLAYER {name: "Benkai"}),
+(aJame:PLAYER {name: "Jame"}),
+(aXELLOW:PLAYER {name: "XELLOW"}),
+(aTexta:PLAYER {name: "Texta"}),
+(amhL:PLAYER {name: "mhL"}),
+(aEl1an:PLAYER {name: "El1an"}),
+(aoskar:PLAYER {name: "oskar"}),
+(akennyS:PLAYER {name: "kennyS"}),
+(afrozen:PLAYER {name: "frozen"}),
+(ahuNter:PLAYER {name: "huNter-"}),
+(amantuu:PLAYER {name: "mantuu"}),
+(ayuurih:PLAYER {name: "yuurih"}),
+(aerkaSt:PLAYER {name: "erkaSt"}),
+(aFreeman:PLAYER {name: "Freeman"}),
+(aINS:PLAYER {name: "INS"}),
+(achelleos:PLAYER {name: "chelleos"}),
+(avsm:PLAYER {name: "vsm"}),
+(awoxic:PLAYER {name: "woxic"}),
+(aliTTle:PLAYER {name: "liTTle"}),
+(aropz:PLAYER {name: "ropz"}),
+(adream3r:PLAYER {name: "dream3r"}),
+(akNgV:PLAYER {name: "kNgV-"}),
+(aJamppi:PLAYER {name: "Jamppi"}),
+(awrath:PLAYER {name: "wrath"}),
+(axsepower:PLAYER {name: "xsepower"}),
+(aoSee:PLAYER {name: "oSee"}),
+(aPTC:PLAYER {name: "PTC"}),
+(aGuardiaN:PLAYER {name: "GuardiaN"}),
+(aTwistzz:PLAYER {name: "Twistzz"}),
+(aNEOFRAG:PLAYER {name: "NEOFRAG"}),
+(asplashske:PLAYER {name: "splashske"}),
+(adgt:PLAYER {name: "dgt"}),
+(azorte:PLAYER {name: "zorte"}),
+(aottoNd:PLAYER {name: "ottoNd"}),
+(aFREDDyFROG:PLAYER {name: "FREDDyFROG"}),
+(aBrehze:PLAYER {name: "Brehze"}),
+(aInfinite:PLAYER {name: "Infinite"}),
+(aTenZ:PLAYER {name: "TenZ"}),
+(af0rest:PLAYER {name: "f0rest"}),
+(aCeRq:PLAYER {name: "CeRq"}),
+(aOlivia:PLAYER {name: "Olivia"}),
+(apoizon:PLAYER {name: "poizon"}),
+(amertz:PLAYER {name: "mertz"}),
+(aekul:PLAYER {name: "ekul"}),
+(anawwk:PLAYER {name: "nawwk"}),
+(aWARDELL:PLAYER {name: "WARDELL"}),
+(aswag:PLAYER {name: "swag"}),
+(ahades:PLAYER {name: "hades"}),
+(amir:PLAYER {name: "mir"}),
+(aHEN1:PLAYER {name: "HEN1"}),
+(aaliStair:PLAYER {name: "aliStair"}),
+(ah4rn:PLAYER {name: "h4rn"}),
+(aAx1Le:PLAYER {name: "Ax1Le"}),
+(adumau:PLAYER {name: "dumau"}),
+(aCalyx:PLAYER {name: "Calyx"}),
+(amoose:PLAYER {name: "moose"}),
+(anython:PLAYER {name: "nython"}),
+(axccurate:PLAYER {name: "xccurate"}),
+(amixwell:PLAYER {name: "mixwell"}),
+(aallu:PLAYER {name: "allu"}),
+(aelectroNic:PLAYER {name: "electroNic"}),
+(aFarlig:PLAYER {name: "Farlig"}),
+(asyrsoN:PLAYER {name: "syrsoN"}),
+(alollipop21k:PLAYER {name: "lollipop21k"}),
+(afloppy:PLAYER {name: "floppy"}),
+(aPwnAlone:PLAYER {name: "PwnAlone"}),
+(aSpinx:PLAYER {name: "Spinx"}),
+(aGeT_RiGhT:PLAYER {name: "GeT_RiGhT"}),
+(aJUGi:PLAYER {name: "JUGi"}),
+(adexter:PLAYER {name: "dexter"}),
+(aCooper:PLAYER {name: "Cooper"}),
+(aSonic:PLAYER {name: "Sonic"}),
+(aJOTA:PLAYER {name: "JOTA"}),
+(aVitality:TEAM {name: "Vitality"}),
+(aSK:TEAM {name: "SK"}),
+(aGODSENT:TEAM {name: "GODSENT"}),
+(aImperial:TEAM {name: "Imperial"}),
+(aImmortals:TEAM {name: "Immortals"}),
+(aNatusVincere:TEAM {name: "Natus Vincere"}),
+(aGambitYoungsters:TEAM {name: "Gambit Youngsters"}),
+(a1WIN:TEAM {name: "1WIN"}),
+(aViCi:TEAM {name: "ViCi"}),
+(aSpirit:TEAM {name: "Spirit"}),
+(aBIG:TEAM {name: "BIG"}),
+(aLookingForOrg:TEAM {name: "Looking For Org"}),
+(aEternalFire:TEAM {name: "Eternal Fire"}),
+(aMOUZ:TEAM {name: "MOUZ"}),
+(aTYLOO:TEAM {name: "TYLOO"}),
+(aAstralis:TEAM {name: "Astralis"}),
+(aRunorDie:TEAM {name: "Run or Die"}),
+(aG2:TEAM {name: "G2"}),
+(aNKT:TEAM {name: "NKT"}),
+(aRenegades:TEAM {name: "Renegades"}),
+(aFURIA:TEAM {name: "FURIA"}),
+(aBOOTdS:TEAM {name: "BOOT-d[S]"}),
+(aAVANGAR:TEAM {name: "AVANGAR"}),
+(aNexus:TEAM {name: "Nexus"}),
+(aChiefs:TEAM {name: "Chiefs"}),
+(aMOUZNXT:TEAM {name: "MOUZ NXT"}),
+(aEntropiq:TEAM {name: "Entropiq"}),
+(aOG:TEAM {name: "OG"}),
+(aGrayhound:TEAM {name: "Grayhound"}),
+(aParadox:TEAM {name: "Paradox"}),
+(a00NATION:TEAM {name: "00NATION"}),
+(aforZe:TEAM {name: "forZe"}),
+(aSKADE:TEAM {name: "SKADE"}),
+(aMIBR:TEAM {name: "MIBR"}),
+(aSJ:TEAM {name: "SJ"}),
+(aNewIdentity:TEAM {name: "New Identity"}),
+(aK23:TEAM {name: "K23"}),
+(aExtraSalt:TEAM {name: "Extra Salt"}),
+(aLucidDream:TEAM {name: "Lucid Dream"}),
+(aFaZe:TEAM {name: "FaZe"}),
+(aSINNERS:TEAM {name: "SINNERS"}),
+(a9z:TEAM {name: "9z"}),
+(aHAVU:TEAM {name: "HAVU"}),
+(aChaos:TEAM {name: "Chaos"}),
+(aEvilGeniuses:TEAM {name: "Evil Geniuses"}),
+(aPartyAstronauts:TEAM {name: "Party Astronauts"}),
+(aBadNewsBears:TEAM {name: "Bad News Bears"}),
+(aDignitas:TEAM {name: "Dignitas"}),
+(aBeyond:TEAM {name: "Beyond"}),
+(aComplexity:TEAM {name: "Complexity"}),
+(aNorthAcademy:TEAM {name: "North Academy"}),
+(aApeks:TEAM {name: "Apeks"}),
+(aGhost:TEAM {name: "Ghost"}),
+(aSwolePatrol:TEAM {name: "Swole Patrol"}),
+(aENCE:TEAM {name: "ENCE"}),
+(aFATE:TEAM {name: "FATE"}),
+(aeUnited:TEAM {name: "eUnited"}),
+(apaiN:TEAM {name: "paiN"}),
+(aOpTic:TEAM {name: "OpTic"}),
+(aCopenhagenFlames:TEAM {name: "Copenhagen Flames"}),
+(aNemiga:TEAM {name: "Nemiga"}),
+(aCloud9:TEAM {name: "Cloud9"}),
+(aNIP:TEAM {name: "NIP"}),
+(aHeroic:TEAM {name: "Heroic"}),
+(aBravado:TEAM {name: "Bravado"}),
+(aZywOo) -[:PLAYS_FOR]-> (aVitality),
+(aFalleN) -[:PLAYS_FOR]-> (aSK),
+(afer) -[:PLAYS_FOR]-> (aSK),
+(aTACO) -[:PLAYS_FOR]-> (aGODSENT),
+(afelps) -[:PLAYS_FOR]-> (aSK),
+(afnx) -[:PLAYS_FOR]-> (aImperial),
+(aboltz) -[:PLAYS_FOR]-> (aImmortals),
+(as1mple) -[:PLAYS_FOR]-> (aNatusVincere),
+(ash1ro) -[:PLAYS_FOR]-> (aGambitYoungsters),
+(adeko) -[:PLAYS_FOR]-> (a1WIN),
+(aKaze) -[:PLAYS_FOR]-> (aViCi),
+(adegster) -[:PLAYS_FOR]-> (aSpirit),
+(asmooya) -[:PLAYS_FOR]-> (aBIG),
+(asterling) -[:PLAYS_FOR]-> (aLookingForOrg),
+(aXANTARES) -[:PLAYS_FOR]-> (aEternalFire),
+(atorzsi) -[:PLAYS_FOR]-> (aMOUZ),
+(aDANK1NG) -[:PLAYS_FOR]-> (aTYLOO),
+(adevice) -[:PLAYS_FOR]-> (aAstralis),
+(aSENSEi) -[:PLAYS_FOR]-> (aRunorDie),
+(aNiKo) -[:PLAYS_FOR]-> (aG2),
+(aBnTeT) -[:PLAYS_FOR]-> (aTYLOO),
+(acoldzera) -[:PLAYS_FOR]-> (aSK),
+(aXigN) -[:PLAYS_FOR]-> (aNKT),
+(aSico) -[:PLAYS_FOR]-> (aRenegades),
+(ablameF) -[:PLAYS_FOR]-> (aAstralis),
+(aKSCERATO) -[:PLAYS_FOR]-> (aFURIA),
+(aBenkai) -[:PLAYS_FOR]-> (aBOOTdS),
+(aJame) -[:PLAYS_FOR]-> (aAVANGAR),
+(aXELLOW) -[:PLAYS_FOR]-> (aNexus),
+(aTexta) -[:PLAYS_FOR]-> (aChiefs),
+(amhL) -[:PLAYS_FOR]-> (aMOUZNXT),
+(aEl1an) -[:PLAYS_FOR]-> (aEntropiq),
+(aoskar) -[:PLAYS_FOR]-> (aMOUZ),
+(akennyS) -[:PLAYS_FOR]-> (aG2),
+(afrozen) -[:PLAYS_FOR]-> (aMOUZ),
+(ahuNter) -[:PLAYS_FOR]-> (aG2),
+(amantuu) -[:PLAYS_FOR]-> (aOG),
+(ayuurih) -[:PLAYS_FOR]-> (aFURIA),
+(aerkaSt) -[:PLAYS_FOR]-> (aGrayhound),
+(aFreeman) -[:PLAYS_FOR]-> (aViCi),
+(aINS) -[:PLAYS_FOR]-> (aRenegades),
+(achelleos) -[:PLAYS_FOR]-> (aParadox),
+(avsm) -[:PLAYS_FOR]-> (a00NATION),
+(awoxic) -[:PLAYS_FOR]-> (aEternalFire),
+(aliTTle) -[:PLAYS_FOR]-> (aforZe),
+(aropz) -[:PLAYS_FOR]-> (aMOUZ),
+(adream3r) -[:PLAYS_FOR]-> (aSKADE),
+(akNgV) -[:PLAYS_FOR]-> (aMIBR),
+(aJamppi) -[:PLAYS_FOR]-> (aSJ),
+(awrath) -[:PLAYS_FOR]-> (aNewIdentity),
+(axsepower) -[:PLAYS_FOR]-> (aK23),
+(aoSee) -[:PLAYS_FOR]-> (aExtraSalt),
+(aPTC) -[:PLAYS_FOR]-> (aLucidDream),
+(aGuardiaN) -[:PLAYS_FOR]-> (aNatusVincere),
+(aTwistzz) -[:PLAYS_FOR]-> (aFaZe),
+(aNEOFRAG) -[:PLAYS_FOR]-> (aSINNERS),
+(asplashske) -[:PLAYS_FOR]-> (aBOOTdS),
+(adgt) -[:PLAYS_FOR]-> (a9z),
+(azorte) -[:PLAYS_FOR]-> (aforZe),
+(aottoNd) -[:PLAYS_FOR]-> (aHAVU),
+(aFREDDyFROG) -[:PLAYS_FOR]-> (aChaos),
+(aBrehze) -[:PLAYS_FOR]-> (aEvilGeniuses),
+(aInfinite) -[:PLAYS_FOR]-> (aPartyAstronauts),
+(aTenZ) -[:PLAYS_FOR]-> (aBadNewsBears),
+(af0rest) -[:PLAYS_FOR]-> (aDignitas),
+(aCeRq) -[:PLAYS_FOR]-> (aEvilGeniuses),
+(aOlivia) -[:PLAYS_FOR]-> (aBeyond),
+(apoizon) -[:PLAYS_FOR]-> (aComplexity),
+(amertz) -[:PLAYS_FOR]-> (aNorthAcademy),
+(aekul) -[:PLAYS_FOR]-> (aParadox),
+(anawwk) -[:PLAYS_FOR]-> (aApeks),
+(aWARDELL) -[:PLAYS_FOR]-> (aGhost),
+(aswag) -[:PLAYS_FOR]-> (aSwolePatrol),
+(ahades) -[:PLAYS_FOR]-> (aENCE),
+(amir) -[:PLAYS_FOR]-> (aSpirit),
+(aHEN1) -[:PLAYS_FOR]-> (aImmortals),
+(aaliStair) -[:PLAYS_FOR]-> (aRenegades),
+(ah4rn) -[:PLAYS_FOR]-> (aFATE),
+(aAx1Le) -[:PLAYS_FOR]-> (aGambitYoungsters),
+(adumau) -[:PLAYS_FOR]-> (aGODSENT),
+(aCalyx) -[:PLAYS_FOR]-> (aEternalFire),
+(amoose) -[:PLAYS_FOR]-> (aeUnited),
+(anython) -[:PLAYS_FOR]-> (apaiN),
+(axccurate) -[:PLAYS_FOR]-> (aTYLOO),
+(amixwell) -[:PLAYS_FOR]-> (aOpTic),
+(aallu) -[:PLAYS_FOR]-> (aENCE),
+(aelectroNic) -[:PLAYS_FOR]-> (aNatusVincere),
+(aFarlig) -[:PLAYS_FOR]-> (aCopenhagenFlames),
+(asyrsoN) -[:PLAYS_FOR]-> (aBIG),
+(alollipop21k) -[:PLAYS_FOR]-> (aNemiga),
+(afloppy) -[:PLAYS_FOR]-> (aCloud9),
+(aPwnAlone) -[:PLAYS_FOR]-> (aPartyAstronauts),
+(aSpinx) -[:PLAYS_FOR]-> (aENCE),
+(aGeT_RiGhT) -[:PLAYS_FOR]-> (aNIP),
+(aJUGi) -[:PLAYS_FOR]-> (aHeroic),
+(adexter) -[:PLAYS_FOR]-> (aMOUZ),
+(aCooper) -[:PLAYS_FOR]-> (aSwolePatrol),
+(aSonic) -[:PLAYS_FOR]-> (aBravado),
+(aJOTA) -[:PLAYS_FOR]-> (aMIBR);
