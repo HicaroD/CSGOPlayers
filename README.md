@@ -19,6 +19,8 @@ A linguagem utilizada para interagir com os dados se chama [Cypher](https://neo4
 
 Os dados foram retirados usando um [script](./extract_players.py) escrito em Python a partir de um [CSV](./csgo_players.csv) encontrado na web.
 
+[Aqui](https://youtu.be/QyesysKTz-E) está o link para o tutorial.
+
 ### Instalação
 
 1. **Criar um container Docker com a imagem do Neo4J**
