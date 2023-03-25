@@ -15,6 +15,8 @@ esporte eletrônico chamado de Counter Strike: Global Offensive.
 O meu objetivo é poder analisar de forma mais visual a relação dos jogadores com
 seus times, algo que não fica tão claro em uma planilha de Excel, por exemplo.
 
+A linguagem utilizada para interagir com os dados se chama [Cypher](https://neo4j.com/developer/cypher/). Ela é usada pelo Neo4j como linguagem de query. Ela possue algumas similaridades com SQL. Dessa maneira, durante o tutorial farei algumas relações com SQL para facilitar o entendimento.
+
 Os dados foram retirados usando um [script](./extract_players.py) escrito em Python a partir de um [CSV](./csgo_players.csv) encontrado na web.
 
 ### Instalação
@@ -72,4 +74,69 @@ Os dados foram retirados usando um [script](./extract_players.py) escrito em Pyt
 
 ### Uso
 
-TODO.
+Após adicionar os dados, vamos usar comandos do Cypher (semelhante ao SQL) para interagir
+com os nós e os relacionamentos.
+
+1. **Selecionar todos os nós e relacionamentos**
+
+   ```cypher
+   MATCH (n) RETURN n;
+   ```
+
+   Esse comando é equivalente ao "SELECT \* FROM table_name" no SQL.
+
+2. **Selecionar os nós a depender da label**
+
+   ```cypher
+   MATCH (player:PLAYER) RETURN player;
+   ```
+
+   O comando acima irá selecionar todas as nós com a label "PLAYER"
+
+   ```cypher
+   MATCH (team:TEAM) RETURN team;
+   ```
+
+   O comando acima irá selecionar todas as nós com a label "TEAM"
+
+3. **Selecionar os nós e adicionar condição de filtragem**
+
+   ```cypher
+   MATCH (team:TEAM {name: "FaZe"})
+   RETURN team;
+   ```
+
+   Esse comando acima irá fazer uma query em todas os nós de TEAM e irá usar o atributo
+   da label "team" chamado "name" para pegar todos os nós que possuem o nome igual a
+   "FaZe".
+
+   O comando acima é equivalente ao de baixo:
+
+   ```cypher
+   MATCH (team:TEAM) 
+   WHERE team.name = "FaZe"
+   RETURN team;
+   ```
+
+   O comando `WHERE` será bem importante nas consultas.
+
+   Veja mais um exemplo de `WHERE`:
+
+   ```cypher
+   MATCH (player:PLAYER)
+   WHERE player.name <> "FalleN" 
+   RETURN player;
+   ```
+
+   Esse comando acima irá retornar todos os jogadores que não possuem o nome igual a "FalleN".
+
+4. **Selecionar os relaciomentos**
+
+   Vamos supor que eu queira o nome de todos os jogadores que jogam pelo time `SK`. Como eu
+   faria isso usando Cypher?
+
+   ```cypher
+   MATCH (player:PLAYER) -[contract:PLAYS_FOR]-> (team:TEAM) 
+   WHERE team.name = "SK" 
+   RETURN player;
+   ```
