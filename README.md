@@ -83,7 +83,7 @@ com os nós e os relacionamentos.
    MATCH (n) RETURN n;
    ```
 
-   Esse comando é equivalente ao "SELECT \* FROM table_name" no SQL.
+   Esse comando é equivalente ao `SELECT * FROM table_name` no SQL.
 
 2. **Selecionar os nós a depender da label**
 
@@ -113,7 +113,7 @@ com os nós e os relacionamentos.
    O comando acima é equivalente ao de baixo:
 
    ```cypher
-   MATCH (team:TEAM) 
+   MATCH (team:TEAM)
    WHERE team.name = "FaZe"
    RETURN team;
    ```
@@ -124,7 +124,7 @@ com os nós e os relacionamentos.
 
    ```cypher
    MATCH (player:PLAYER)
-   WHERE player.name <> "FalleN" 
+   WHERE player.name <> "FalleN"
    RETURN player;
    ```
 
@@ -136,7 +136,38 @@ com os nós e os relacionamentos.
    faria isso usando Cypher?
 
    ```cypher
-   MATCH (player:PLAYER) -[contract:PLAYS_FOR]-> (team:TEAM) 
-   WHERE team.name = "SK" 
+   MATCH (player:PLAYER) -[contract:PLAYS_FOR]-> (team:TEAM)
+   WHERE team.name = "SK"
    RETURN player;
    ```
+
+5. **Inserção e remoção de dados**
+   Agora que aprendemos a inserir dados, irei ensinar a respeito dos comandos usados no arquivo [`commands.txt`](./commands.txt) para criar os dados no banco de dados.
+
+   Para criar uma nó, usamos o seguinte comando:
+
+   ```cypher
+   CREATE (zywoo:PLAYER {name: "ZywOo"}),
+   ```
+
+   Usamos o comando `CREATE`, opcionalmente damos um nome para nó `zywoo`, dizemos qual o tipo
+   da label, nesse caso é `PLAYER` e depois setamos os atributos.
+
+   Para criar uma relação, precisamos ter dois nós. Veja o comando abaixo:
+
+   ```cypher
+   CREATE (player) -[:PLAYS_FOR]-> (team);
+   ```
+
+   Isso levando em consideração que `player` e `team` são dois nós que já existem. Para garantir
+   que já existem, eu criei o relacionamento no mesmo comando `CREATE` usado para criar
+   as nós, só assim eu conseguiria ter acesso a todos os nós.
+
+   Para remover dados, usamos o seguinte comando:
+
+   ```cypher
+   MATCH (player:PLAYER) WHERE player.name <> "FalleN" DETACH DELETE player;
+   ```
+
+   Esse comando acima irá selecionar todos os jogadores que não possuem o nome igual a "FalleN"
+   e remova todos.
