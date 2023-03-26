@@ -144,6 +144,7 @@ com os nós e os relacionamentos.
    ```
 
 5. **Inserção e remoção de dados**
+
    Agora que aprendemos a inserir dados, irei ensinar a respeito dos comandos usados no arquivo [`commands.txt`](./commands.txt) para criar os dados no banco de dados.
 
    Para criar uma nó, usamos o seguinte comando:
